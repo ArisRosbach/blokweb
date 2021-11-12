@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Aris Rosbach - 500800470
 
 #### Je startniveau:
-Niveau Rood
+Niveau Rood (met een beetje Zwart)
 
 #### Je focus:
 hier je focus (kies uit responsive óf surface plane)
