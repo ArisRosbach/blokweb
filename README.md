@@ -22,7 +22,7 @@ Aris Rosbach - 500800470
 Niveau Rood (met een beetje Zwart)
 
 #### Je focus:
-hier je focus (kies uit responsive óf surface plane)
+Mijn focus wordt responsive (kies uit responsive óf surface plane)
  
 </details>
 
@@ -36,7 +36,8 @@ hier je focus (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
+Ik ga de PANDORA website namaken:
+https://nl.pandora.net/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 hier de naam van de pagina  
