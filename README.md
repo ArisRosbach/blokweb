@@ -39,11 +39,11 @@ Mijn focus wordt responsive (kies uit responsive óf surface plane)
 Ik ga de PANDORA website namaken: https://nl.pandora.net/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-Home  
+Home<br>
 <img src="images/pandoraHome.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-Verzorging en Onderhoud 
+Verzorging en Onderhoud<br>
 <img src="images/pandoraOnderhoud.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
