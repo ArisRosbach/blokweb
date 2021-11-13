@@ -19,7 +19,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 Aris Rosbach - 500800470
 
 #### Je startniveau:
-Niveau Rood (met een beetje Zwart)
+Niveau rood (met een beetje Zwart)
 
 #### Je focus:
 Mijn focus wordt responsive (kies uit responsive óf surface plane)
@@ -36,16 +36,15 @@ Mijn focus wordt responsive (kies uit responsive óf surface plane)
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Je opdracht:
-Ik ga de PANDORA website namaken:
-https://nl.pandora.net/nl/
+Ik ga de PANDORA website namaken: https://nl.pandora.net/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Home  
+<img src="images/pandoraHome.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
-hier de naam van de pagina  
-<img src="images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+Verzorging en Onderhoud 
+<img src="images/pandoraOnderhoud.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
