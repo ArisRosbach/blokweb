@@ -22,7 +22,7 @@ Aris Rosbach - 500800470
 Niveau rood (met een beetje Zwart)
 
 #### Je focus:
-Mijn focus wordt responsive (kies uit responsive óf surface plane)
+Mijn focus wordt responsive als ik er tijd voor heb ga ik aan de slag met de surface plane.
  
 </details>
 
@@ -55,14 +55,17 @@ Verzorging en Onderhoud<br>
 <details>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
-### de hele pagina: 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+### De hele Home pagina: 
+<img src="images/BreakdownSite-Home" width="375px" alt="breakdown van de hele pagina">
 
-### dynamisch deel (bijv menu): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+### De hele Onderhoud pagina: 
+<img src="images/BreakdownSite-Onderhoud" width="375px" alt="breakdown van de hele pagina">
 
-### wellicht nog een dynamisch deel (bijv filter): 
-<img src="images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+### Dynamische delen (bijv menu): 
+<img src="images/BreakdownSite-01" width="375px" alt="breakdown van een dynamisch deel">
+
+### Nog meer dynamische delen prt 2: 
+<img src="images/BreakdownSite-02" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 

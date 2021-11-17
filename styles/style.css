@@ -1,5 +1,84 @@
 /* CSS Document */
 *, *::after, *::before {
   box-sizing:border-box;  
+  margin: 0;
+	padding: 0;
 }
 
+/* Algemeen */
+body{
+  font-family: stolzl, sans-serif;
+  font-size: 0.8em;
+}
+
+/* Font vanuit Adobe:
+Stolzl Regular
+font-family: stolzl, sans-serif;
+font-weight: 400;
+font-style: normal;
+
+Stolzl Bold
+font-family: stolzl, sans-serif;
+font-weight: 700;
+font-style: normal; */
+
+hr {
+  border-top: 1em solid #ffcad4;
+}
+
+/* Header */
+header div{
+  display: flex;
+  justify-content: center;
+}
+
+header div a{
+  justify-content: center;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+header li{
+  list-style-type: none;
+}
+
+header img{
+  max-height: 2em;
+}
+header li:nth-of-type(3) img {
+  max-height: 5em;
+}
+
+/* Main */
+main section:first-of-type img {
+  height: 12em;
+  width: 100%;
+  object-fit: cover;
+}
+
+main section:nth-of-type(2) img {
+  height: 28em;
+  width: 100%;
+  object-fit: cover;
+}
+
+main section:nth-of-type(2) div h2 {
+  text-transform: uppercase;
+  font-size: 1.8em;
+  position: absolute;
+  top: 70%;
+  left: 5%;
+  right: 15%;
+  color: white;
+}
+
+main section:nth-of-type(2) div h3 {
+  text-transform: uppercase;
+  position: absolute;
+  top: 65%;
+  left: 5%;
+  color: white;
+}
