@@ -56,16 +56,16 @@ Verzorging en Onderhoud<br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### De hele Home pagina: 
-<img src="images/BreakdownSite-Home" width="375px" alt="breakdown van de hele pagina">
+<img src="images/BreakdownSite-Home.png" width="375px" alt="breakdown van de hele pagina">
 
 ### De hele Onderhoud pagina: 
-<img src="images/BreakdownSite-Onderhoud" width="375px" alt="breakdown van de hele pagina">
+<img src="images/BreakdownSite-Onderhoud.png" width="375px" alt="breakdown van de hele pagina">
 
 ### Dynamische delen (bijv menu): 
-<img src="images/BreakdownSite-01" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/BreakdownSite-01.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### Nog meer dynamische delen prt 2: 
-<img src="images/BreakdownSite-02" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/BreakdownSite-02.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
