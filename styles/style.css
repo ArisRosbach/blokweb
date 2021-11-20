@@ -8,9 +8,11 @@
 }
 
 /* Algemeen */
-:root{
-  --pandora-pink:#ffcad4;
-  --pandora-grey:#d0d1d2;
+:root {
+  --pandora-pink: #ffcad4;
+  --pandora-grey: #d0d1d2;
+  --pandora-lightgrey: #f5f5f5;
+  --pandora-footergrey: #f0f0f0;
 }
 
 body {
@@ -18,8 +20,16 @@ body {
   font-size: 0.8em;
 }
 
+main {
+  margin: 1em;
+}
+
 button {
   font-family: stolzl, sans-serif;
+}
+
+section {
+  margin: 3em 0;
 }
 
 /* Font vanuit Adobe:
@@ -53,6 +63,7 @@ header div {
 
 header div a {
   padding: 1em 0em;
+  font-size: 0.7em;
 }
 
 header nav {
@@ -61,6 +72,7 @@ header nav {
 
 header nav ul {
   display: flex;
+  align-items: center;
 }
 
 header nav li {
@@ -74,12 +86,14 @@ header nav li a {
 }
 
 header nav img {
-  max-height: 3em;
+  width: 2.5em;
 }
 
 header nav li:nth-of-type(3) img {
-  max-height: 5em;
+  width: 10em;
+  height: 5em;
   margin: 0 3em;
+  object-fit: cover;
 }
 
 /* Main */
@@ -89,9 +103,10 @@ main section:first-of-type img {
   height: 12em;
   width: 150%;
   object-fit: cover;
+  margin: 0 -1em;
 }
 
-section:first-of-type button {
+main section:first-of-type button {
   background-color: black;
   border: none;
   color: white;
@@ -107,6 +122,7 @@ main section:nth-of-type(2) img {
   height: 30em;
   width: 120%;
   object-fit: cover;
+  margin: 0 -1em;
 }
 
 main section:nth-of-type(2) div h2 {
@@ -127,43 +143,233 @@ main section:nth-of-type(2) div h3 {
   color: white;
 }
 
-/* section 2 */
-section:nth-of-type(3) {
+/* section 3 */
+main section:nth-of-type(3) {
   display: flex;
   flex-wrap: wrap;
-  margin: 1em;
+  /* margin: 1em; */
 }
 
-section:nth-of-type(3) h2 {
+main section:nth-of-type(3) h2 {
   display: flex;
   flex-grow: 1;
   width: 100%;
 }
 
-section:nth-of-type(3) a {
+main section:nth-of-type(3) a {
   display: flex;
   flex-grow: 1;
   flex-basis: 30%;
   padding: 0.5em;
 }
 
-section:nth-of-type(3) article {
+main section:nth-of-type(3) article {
   border: 0.1em solid var(--pandora-grey);
   text-align: center;
   width: 100%;
-
 }
 
-section:nth-of-type(3) article img {
+main section:nth-of-type(3) article img {
   height: 6em;
   width: 100%;
   padding: 0 1em;
   object-fit: scale-down;
 }
 
-section:nth-of-type(3) article h3 {
+main section:nth-of-type(3) article h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.9em;
   padding: 1em 0em;
+}
+
+/* Section 4 */
+main section:nth-of-type(4) button {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+main section:nth-of-type(4) img {
+  width: 100%;
+}
+
+/* Section 5 */
+main section:nth-of-type(5) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+main section:nth-of-type(5) h2 {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+main section:nth-of-type(5) a {
+  display: flex;
+  flex-grow: 1;
+  flex-basis: 50%;
+  padding: 0.1em;
+}
+
+main section:nth-of-type(5) article {
+  background-color: var(--pandora-lightgrey);
+  text-align: center;
+  width: 100%;
+}
+
+main section:nth-of-type(5) article img {
+  height: 2em;
+}
+main section:nth-of-type(5) article img:nth-of-type(3) {
+  height: 10em;
+  margin-bottom: 4em;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+/* section 6 */
+main section:nth-of-type(6) img {
+  width: 100%;
+}
+
+main section:nth-of-type(6) a {
+  text-transform: uppercase;
+}
+
+/* section 7 */
+main section:nth-of-type(7) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+main section:nth-of-type(7) h2 {
+  display: flex;
+  flex-grow: 1;
+  width: 100%;
+}
+
+main section:nth-of-type(7) button{
+  background-color: white;
+  border: 0.2em solid var(--pandora-grey);
+  color: black;
+  width: 40%;
+  border-radius: 0.3em;
+  font-size: 0.9em;
+  padding: 2em 0em;
+  text-align: center;
+  cursor: pointer;
+  margin: 1em;
+}
+
+/* section 8 */
+main section:nth-of-type(8){
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+main section:nth-of-type(8) article{
+  border: 0.5em solid var(--pandora-pink);
+  width: 100%;
+  padding: 4em;
+  text-align: center;
+  margin: 1em;
+}
+
+main section:nth-of-type(8) button {
+  display: flex;
+  background-color: black;
+  width: 80%;
+  border: none;
+  color: white;
+  padding: 1em 2em;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  margin-top: 3em;
+}
+
+/* footer */
+footer {
+  background-color: var(--pandora-footergrey);
+  padding: 2em;
+}
+
+/* footer section 1 */
+footer section:first-of-type {
+  display: flex;
+  justify-content: space-around;
+}
+
+footer section:first-of-type img{
+  height: 1.2em;
+}
+
+/* footer section 2 */
+footer section:nth-of-type(2) h3{
+  padding: 0em 0em 1em;
+}
+
+footer section:nth-of-type(2) p{
+  padding: 0em 0em 1em;
+}
+
+/* footer form */
+footer form {
+  display: flex;
+  flex-grow: 1;
+}
+
+footer fieldset {
+  border: none;
+}
+
+footer label {
+  display: none;
+}
+
+footer input,
+select,
+textarea {
+  padding: 0.5em 0em;
+  font-family: stolzl, sans-serif;
+}
+
+input {
+  background-color: var(--pandora-footergrey);
+}
+
+input[type="submit"] {
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 0em 2em;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* footer nav */
+footer nav li{
+  list-style-type: none;
+  text-transform: uppercase;
+  line-height: 3em;
+}
+
+footer nav a{
+  color: grey;
+  text-decoration: none;
+}
+
+/* footer section 3 */
+footer section:nth-of-type(3) {
+  display: flex;
+  justify-content: center;
 }

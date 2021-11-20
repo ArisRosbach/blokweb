@@ -40,11 +40,11 @@ Ik ga de PANDORA website namaken: https://nl.pandora.net/nl/
 
 #### Screenshot(s) van de eerste pagina (small screen): 
 Home<br>
-<img src="images/pandoraHome.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/ReadMe/pandoraHome.jpg" width="375px" alt="omschrijving van de pagina">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 Verzorging en Onderhoud<br>
-<img src="images/pandoraOnderhoud.jpg" width="375px" alt="omschrijving van de pagina">
+<img src="images/ReadMe/pandoraOnderhoud.jpg" width="375px" alt="omschrijving van de pagina">
  
 </details>
 
@@ -56,16 +56,16 @@ Verzorging en Onderhoud<br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### De hele Home pagina: 
-<img src="images/BreakdownSite-Home.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/ReadMe/BreakdownSite-Home.png" width="375px" alt="breakdown van de hele pagina">
 
 ### De hele Onderhoud pagina: 
-<img src="images/BreakdownSite-Onderhoud.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/ReadMe/BreakdownSite-Onderhoud.png" width="375px" alt="breakdown van de hele pagina">
 
 ### Dynamische delen (bijv menu): 
-<img src="images/BreakdownSite-01.png" width="375px" alt="breakdown van een dynamisch deel">
+<img src="images/ReadMe/BreakdownSite-01.png" width="375px" alt="breakdown van een dynamisch deel">
 
 ### Nog meer dynamische delen prt 2: 
-<img src="images/BreakdownSite-02.png" width="375px" alt="breakdown van nog een dynamisch deel">
+<img src="images/ReadMe/BreakdownSite-02.png" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -234,8 +234,12 @@ hier screenshot(s) van je eindresultaat
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
-1. bron 1
-2. bron 2
-3. ...
+1. https://nl.pandora.net/nl/
+2. https://codepen.io/shooft/pen/vYZKQPX
+3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+4. ...
+5. ...
+6. ...
+
 
 </details>
