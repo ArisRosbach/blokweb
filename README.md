@@ -95,9 +95,8 @@ samen opgesteld met mijn groepje:
 
 | Anneke Steller | Max van Liempt   | Fleur Oostingh | Zoë Reijinga     | Aris Rosbach     |
 | ---            | ---              | ---            | ---              | ---              |
-| Zij loopt nog  | heeft geen       | heeft ook geen | wil weten hoe je | ik heb een       |
-| achter en wil  | vragen           | agenda punt    | een zoekbalk     | probleem met een |
-| dit benoemen   |                  |                | maakt            | margin           |
+| Zij loopt nog achter en wil dit benoemen  | Heeft geen vragen      | Heeft ook geen agenda punt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
+| ...    | ...    | ...    | ...    | ...    |
 
 
 ### Verslag van meeting
