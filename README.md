@@ -79,17 +79,25 @@ Verzorging en Onderhoud<br>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Voor nu heb ik alle HTML van de eerste pagina gemaakt en ook al erg veel vormgegeven met onder andere
+flex-box en positioning. Hierbij lag de focus nog bij het maken van een mobiele scherm. 
+Ik vind het af en toe nog wel eens lastig om de juiste manier te vinden om 
+iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang!
+<img src="images/ReadMe/CodeHTMLMain.JPG" width="375px" alt="Schermafbeelding van de main code">
+
+<img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" width="375px" alt="Schermafbeelding van de voortgang 1">
+<img src="images/ReadMe/SchermafbeeldingVoortgang2.JPG" width="375px" alt="Schermafbeelding van de voortgang 2">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.JPG" width="375px" alt="Schermafbeelding van de voortgang 3">
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+samen opgesteld met mijn groepje:
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Anneke Steller | Max van Liempt   | Fleur Oostingh | Zoë Reijinga     | Aris Rosbach     |
+| ---            | ---              | ---            | ---              | ---              |
+| Zij loopt nog  | heeft geen       | heeft ook geen | wil weten hoe je | ik heb een       |
+| achter en wil  | vragen           | agenda punt    | een zoekbalk     | probleem met een |
+| dit benoemen   |                  |                | maakt            | margin           |
 
 
 ### Verslag van meeting
