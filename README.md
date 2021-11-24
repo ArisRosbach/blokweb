@@ -83,7 +83,8 @@ Voor nu heb ik alle HTML van de eerste pagina gemaakt en ook al erg veel vormgeg
 flex-box en positioning. Hierbij lag de focus nog bij het maken van een mobiele scherm. 
 Ik vind het af en toe nog wel eens lastig om de juiste manier te vinden om 
 iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang!
-<img src="images/ReadMe/CodeHTMLMain.JPG" width="375px" alt="Schermafbeelding van de main code">
+<img src="images/ReadMe/CodeHTMLMain.JPG" width="375px" alt="Schermafbeelding van de main HTML">
+ <img src="images/ReadMe/CodeCSSMain.JPG" width="375px" alt="Schermafbeelding van de main CSS">
 
 <img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" width="375px" alt="Schermafbeelding van de voortgang 1">
 <img src="images/ReadMe/SchermafbeeldingVoortgang2.JPG" width="375px" alt="Schermafbeelding van de voortgang 2">
