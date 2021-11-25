@@ -84,7 +84,7 @@ flex-box en positioning. Hierbij lag de focus nog bij het maken van een mobiele 
 Ik vind het af en toe nog wel eens lastig om de juiste manier te vinden om 
 iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang! <br>
 <img src="images/ReadMe/CodeHTMLMain.JPG" height="300px" alt="Schermafbeelding van de main HTML">
- <img src="images/ReadMe/CodeCSSMain.JPG" height="300px" alt="Schermafbeelding van de main CSS">
+<img src="images/ReadMe/CodeCSSMain.JPG" height="300px" alt="Schermafbeelding van de main CSS">
 
 <img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" height="300px" alt="Schermafbeelding van de voortgang 1">
 <img src="images/ReadMe/SchermafbeeldingVoortgang2.JPG" height="300px" alt="Schermafbeelding van de voortgang 2">
@@ -96,7 +96,7 @@ samen opgesteld met mijn groepje:
 
 | Anneke Steller | Max van Liempt   | Fleur Oostingh | Zoë Reijinga     | Aris Rosbach     |
 | ---            | ---              | ---            | ---              | ---              |
-| Zij loopt nog achter en wil dit benoemen  | Heeft de vraag hoe je een div goed gebruikt | Heeft ook geen agenda punt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
+| Zij loopt nog achter en wil dit benoemen  | Heeft geen agenda punt | Heeft de vraag hoe je een div goed gebruikt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
 | ...    | ...    | ...    | ...    | ...    |
 
 
