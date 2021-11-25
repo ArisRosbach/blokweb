@@ -83,12 +83,12 @@ Voor nu heb ik alle HTML van de eerste pagina gemaakt en ook al erg veel vormgeg
 flex-box en positioning. Hierbij lag de focus nog bij het maken van een mobiele scherm. 
 Ik vind het af en toe nog wel eens lastig om de juiste manier te vinden om 
 iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang! <br>
-<img src="images/ReadMe/CodeHTMLMain.JPG" height="375px" alt="Schermafbeelding van de main HTML">
- <img src="images/ReadMe/CodeCSSMain.JPG" width="375px" alt="Schermafbeelding van de main CSS">
+<img src="images/ReadMe/CodeHTMLMain.JPG" height="300px" alt="Schermafbeelding van de main HTML">
+ <img src="images/ReadMe/CodeCSSMain.JPG" height="300px" alt="Schermafbeelding van de main CSS">
 
-<img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" width="375px" alt="Schermafbeelding van de voortgang 1">
-<img src="images/ReadMe/SchermafbeeldingVoortgang2.JPG" width="375px" alt="Schermafbeelding van de voortgang 2">
-<img src="images/ReadMe/SchermafbeeldingVoortgang3.JPG" width="375px" alt="Schermafbeelding van de voortgang 3">
+<img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" height="300px" alt="Schermafbeelding van de voortgang 1">
+<img src="images/ReadMe/SchermafbeeldingVoortgang2.JPG" height="300px" alt="Schermafbeelding van de voortgang 2">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.JPG" height="300px" alt="Schermafbeelding van de voortgang 3">
 
 
 ### Agenda voor meeting
