@@ -56,7 +56,7 @@ Verzorging en Onderhoud<br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### De hele Home pagina: 
-<img src="images/ReadMe/BreakdownSite-Home.png" width="375px" alt="breakdown van de hele pagina">
+<img src="images/ReadMe/BreakdownSite-Home.png" height="400px" alt="breakdown van de hele pagina">
 
 ### De hele Onderhoud pagina: 
 <img src="images/ReadMe/BreakdownSite-Onderhoud.png" width="375px" alt="breakdown van de hele pagina">
@@ -96,7 +96,7 @@ samen opgesteld met mijn groepje:
 
 | Anneke Steller | Max van Liempt   | Fleur Oostingh | Zoë Reijinga     | Aris Rosbach     |
 | ---            | ---              | ---            | ---              | ---              |
-| Zij loopt nog achter en wil dit benoemen  | Heeft geen vragen      | Heeft ook geen agenda punt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
+| Zij loopt nog achter en wil dit benoemen  | Heeft de vraag hoe je een div goed gebruikt | Heeft ook geen agenda punt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
 | ...    | ...    | ...    | ...    | ...    |
 
 
