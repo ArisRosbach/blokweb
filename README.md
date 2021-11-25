@@ -56,7 +56,7 @@ Verzorging en Onderhoud<br>
 <summary>uitwerken na afloop 2e werkgroep</summary>
 
 ### De hele Home pagina: 
-<img src="images/ReadMe/BreakdownSite-Home.png" height="400px" alt="breakdown van de hele pagina">
+<img src="images/ReadMe/BreakdownSite-Home.png" width="375px" alt="breakdown van de hele pagina">
 
 ### De hele Onderhoud pagina: 
 <img src="images/ReadMe/BreakdownSite-Onderhoud.png" width="375px" alt="breakdown van de hele pagina">
@@ -82,8 +82,8 @@ Verzorging en Onderhoud<br>
 Voor nu heb ik alle HTML van de eerste pagina gemaakt en ook al erg veel vormgegeven met onder andere
 flex-box en positioning. Hierbij lag de focus nog bij het maken van een mobiele scherm. 
 Ik vind het af en toe nog wel eens lastig om de juiste manier te vinden om 
-iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang!
-<img src="images/ReadMe/CodeHTMLMain.JPG" width="375px" alt="Schermafbeelding van de main HTML">
+iets te laten werken maar ben voor nu al erg tevreden met mijn voortgang! <br>
+<img src="images/ReadMe/CodeHTMLMain.JPG" height="375px" alt="Schermafbeelding van de main HTML">
  <img src="images/ReadMe/CodeCSSMain.JPG" width="375px" alt="Schermafbeelding van de main CSS">
 
 <img src="images/ReadMe/SchermafbeeldingVoortgang1.JPG" width="375px" alt="Schermafbeelding van de voortgang 1">
