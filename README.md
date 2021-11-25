@@ -96,17 +96,18 @@ samen opgesteld met mijn groepje:
 
 | Anneke Steller | Max van Liempt   | Fleur Oostingh | Zoë Reijinga     | Aris Rosbach     |
 | ---            | ---              | ---            | ---              | ---              |
-| Zij loopt nog achter en wil dit benoemen  | Heeft geen agenda punt | Heeft de vraag hoe je een div goed gebruikt | wil weten hoe je een zoekbalk maakt | ik heb een probleem met een margin |
+| Zij loopt nog achter en wil dit benoemen  | Heeft geen agenda punt | Heeft de vraag hoe je een div goed gebruikt | Heeft ook geen vragen | Ik heb een probleem met een margin |
 | ...    | ...    | ...    | ...    | ...    |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+De uitkomsten van de meeting:
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Bij Anneke kwam het er opneer dat ze eigenlijk lang niet zo ver achterloopt als ze denkt. Ze loopt namelijk niet achter als het gaat om de theorie en huiswerkopdrachten.
+- Fleur had nu de vraag over wanneer je wel en niet een div gebruikt. Zij had een voorbeeld met allerlei foto's. Dit zou ze dan beter in een list kunnen zetten dan in divjes. Een div gebruik je dus meer voor het stylen. Zo gebruik ik een div om een h2 en h3 samen over een afbeelding te kunnen plaatsen. Dit is wel een goede manier van een div gebruiken, dus dat is fijn om te weten.
+- Als laatste had ik nog een vraag over het gebruik van een margin. Ik heb om mijn main een margin gezet, maar daarvan wil ik dat 1 afbeelding die margin overschrijft. Ik was al goed opweg om een margin: 0 -1em; te gebruiken, maar liep daarna vast. Nu heb ik de vw unit geleerd. Ik had het namelijk kunnen oplossen op een moeilijke manier: calc(100% + 2em). Maar de vw zeg je dat (in dit geval) de afbeelding zo breed moet zijn als de view port. Dus zo breed als je scherm. Zo heb ik mijn probleem kunnen oplossen.
+<br>
+Al met al waren we alle 5 eigenlijk goed bezig en is het nu zaak om volgende week deze puntjes op de i af te hebben zodat we verder kunnen gaan met grid.
 
 </details>
 
