@@ -122,8 +122,8 @@ Al met al waren we alle 5 eigenlijk goed bezig en is het nu zaak om volgende wee
 
 ### Stand van zaken
 Op dit moment heb ik alle content op mijn 1e pagina staan. Daarnaast ben ik ook bijna klaar met de 2e pagina. Voor nu zien de schermen er goed uit op een mobiel scherm. Ik heb al wat JavaScript geschreven en zelfs al een animatie toegevoegd. Dus vanaf nu ga ik mij richten op het responsive maken van mijn website. Hierbij ga ik gebruik maken van grid, iets wat ik nog niet ken en dus moet gaan uitzoeken hoe ik het allemaal precies kan toepassen. <br>
-<img src="images/ReadMe/CodeHTMLMain2.JPG" height="300px" alt="Schermafbeelding van de main HTML">
-<img src="images/ReadMe/CodeCSSMain2.JPG" height="300px" alt="Schermafbeelding van de main CSS">
+<img src="images/ReadMe/CodeHTMLMain2.JPG" height="250px" alt="Schermafbeelding van de main HTML">
+<img src="images/ReadMe/CodeCSSMain2.JPG" height="250px" alt="Schermafbeelding van de main CSS">
 
 <img src="images/ReadMe/SchermafbeeldingVoortgang2.2.JPG" height="300px" alt="Schermafbeelding van de voortgang 1">
 <img src="images/ReadMe/SchermafbeeldingVoortgang2.3.JPG" height="300px" alt="Schermafbeelding van de voortgang 2">
