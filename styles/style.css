@@ -22,13 +22,23 @@
   --basis-white: white;
 }
 
+/* font */
+/* Stolzl Light
+font-family: stolzl, sans-serif;
+font-weight: 200;
+font-style: normal; */
+
+
+
 body {
   font-family: stolzl, sans-serif;
   font-size: 0.8em;
+  background-color: var(--basis-white);
 }
 
 main {
   margin: 1em;
+  padding-top: 7em;
 }
 
 button {
@@ -40,6 +50,21 @@ button {
   text-decoration: none;
   display: inline-block;
   cursor: pointer;
+
+  transition: .5s;
+}
+
+button.buttonAnders {
+  background-color: var(--pandora-pink);
+  color: var(--basis-black);
+}
+
+p,
+h1,
+h2,
+h3,
+a {
+  color: var(--basis-black);
 }
 
 section {
@@ -58,6 +83,11 @@ hr {
 header {
   display: flex;
   flex-wrap: wrap;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background: white;
+  z-index: 1;
 }
 
 header div {
@@ -102,26 +132,27 @@ header nav li:nth-of-type(3) img {
   object-fit: cover;
 }
 
-/* **** */
-/* Main */
-/* **** */
+
+/* ************* */
+/* Main Pagina 1 */
+/* ************* */
 
 /* ********* */
 /* section 1 */
 /* ********* */
-main section:first-of-type {
+.pagina1 section:first-of-type {
   position: relative;
 }
 
-main section:first-of-type img {
+.pagina1 section:first-of-type img {
   height: 12em;
-  width: 100%;
+  width: 100vw;
   object-fit: cover;
   object-position: 20%;
   margin: 0 -1em;
 }
 
-main section:first-of-type button {
+.pagina1 section:first-of-type button {
   padding: 1em 2em;
 
   position: absolute;
@@ -132,32 +163,31 @@ main section:first-of-type button {
 /* ********* */
 /* section 2 */
 /* ********* */
-main section:nth-of-type(2) {
+.pagina1 section:nth-of-type(2) {
   position: relative;
-
 }
 
-main section:nth-of-type(2) img {
+.pagina1 section:nth-of-type(2) img {
   height: 30em;
-  width: 110%;
+  width: 100vw;
   object-fit: cover;
   margin: 0 -1em;
 }
 
-main section:nth-of-type(2) div {
+.pagina1 section:nth-of-type(2) div {
   position: absolute;
   bottom: 4em;
   left: 1em;
   right: 2em;
 }
 
-main section:nth-of-type(2) div h2 {
+.pagina1 section:nth-of-type(2) div h2 {
   text-transform: uppercase;
   font-size: 1.8em;
   color: var(--basis-white);
 }
 
-main section:nth-of-type(2) div h3 {
+.pagina1 section:nth-of-type(2) div h3 {
   text-transform: uppercase;
   color: var(--basis-white);
 }
@@ -166,39 +196,39 @@ main section:nth-of-type(2) div h3 {
 /* ********* */
 /* section 3 */
 /* ********* */
-main section:nth-of-type(3) {
+.pagina1 section:nth-of-type(3) {
   display: flex;
   flex-wrap: wrap;
   /* margin: 1em; */
 }
 
-main section:nth-of-type(3) h2 {
+.pagina1 section:nth-of-type(3) h2 {
   display: flex;
   flex-grow: 1;
   width: 100%;
 }
 
-main section:nth-of-type(3) a {
+.pagina1 section:nth-of-type(3) a {
   display: flex;
   flex-grow: 1;
   flex-basis: 30%;
   padding: 0.5em;
 }
 
-main section:nth-of-type(3) article {
+.pagina1 section:nth-of-type(3) article {
   border: 0.1em solid var(--pandora-grey);
   text-align: center;
   width: 100%;
 }
 
-main section:nth-of-type(3) article img {
+.pagina1 section:nth-of-type(3) article img {
   height: 6em;
   width: 100%;
   padding: 0 1em;
   object-fit: scale-down;
 }
 
-main section:nth-of-type(3) article h3 {
+.pagina1 section:nth-of-type(3) article h3 {
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.9em;
@@ -209,11 +239,16 @@ main section:nth-of-type(3) article h3 {
 /* ********* */
 /* Section 4 */
 /* ********* */
-main section:nth-of-type(4) button {
+.pagina1 section:nth-of-type(4) h2 {
+  padding: 1em 0;
+}
+
+
+.pagina1 section:nth-of-type(4) button {
   padding: 1em 2em;
 }
 
-main section:nth-of-type(4) img {
+.pagina1 section:nth-of-type(4) img {
   width: 100%;
 }
 
@@ -221,75 +256,138 @@ main section:nth-of-type(4) img {
 /* ********* */
 /* Section 5 */
 /* ********* */
-main section:nth-of-type(5) {
+.pagina1 section:nth-of-type(5) {
   display: flex;
   flex-wrap: wrap;
 }
 
-main section:nth-of-type(5) h2 {
+.pagina1 section:nth-of-type(5) h2 {
   display: flex;
   flex-grow: 1;
   flex-basis: 100%;
 }
 
-main section:nth-of-type(5) a {
+.pagina1 section:nth-of-type(5) a {
   display: flex;
   flex-grow: 1;
   flex-basis: 50%;
   padding: 0.1em;
+  text-decoration: none;
 }
 
-main section:nth-of-type(5) div {
+.pagina1 section:nth-of-type(5) div {
   display: flex;
   overflow-x: scroll;
+  gap: .2em;
 }
 
-main section:nth-of-type(5) article {
+.pagina1 section:nth-of-type(5) article {
   background-color: var(--pandora-lightgrey);
   text-align: center;
-  width: 10em;
+  padding: 0 0 2em;
 }
 
-main section:nth-of-type(5) article img {
-  height: 1.5em;
+.pagina1 section:nth-of-type(5) article p {
+  width: 12em;
 }
 
-main section:nth-of-type(5) article img:nth-of-type(3) {
-  height: 10em;
+.pagina1 section:nth-of-type(5) article div {
+  overflow-x: unset;
+}
+
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(1) {
+  height: 1.3em;
+  margin: 0.5em;
+}
+
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(2) {
+  height: 3em;
+  margin-bottom: 1em;
+}
+
+/* Wanneer hartje wordt geklikt draait die rond */
+@keyframes hartje-animation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(2).hartjeVol {
+  animation-name: hartje-animation;
+  animation-duration: 1s;
+}
+
+.pagina1 section:nth-of-type(5) article img {
+  height: 12em;
   margin-bottom: 4em;
   width: 100%;
   object-fit: scale-down;
 }
 
+.pagina1 section:nth-of-type(5) article h3 {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  color: var(--pandora-grey);
+}
+
+
 
 /* ********* */
 /* section 6 */
 /* ********* */
-main section:nth-of-type(6) img {
+.pagina1 section:nth-of-type(6) img {
   width: 100%;
 }
 
-main section:nth-of-type(6) a {
+.pagina1 section:nth-of-type(6) a {
   text-transform: uppercase;
+}
+
+.pagina1 section:nth-of-type(6) h2 {
+  padding: 1em 0;
+}
+
+.pagina1 section:nth-of-type(6) p {
+  padding-bottom: 1em;
+}
+
+.pagina1 section:nth-of-type(6) button {
+  padding: 1em 2em;
 }
 
 
 /* ********* */
 /* section 7 */
 /* ********* */
-main section:nth-of-type(7) {
+.pagina1 section:nth-of-type(7) {
+  position: relative;
+}
+
+.pagina1 section:nth-of-type(7) img {
+  width: 100%;
+  opacity: 0.5;
+}
+
+.pagina1 section:nth-of-type(7) div {
+  position: absolute;
+  bottom: 0em;
+
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-main section:nth-of-type(7) h2 {
+.pagina1 section:nth-of-type(7) h2 {
   display: flex;
   flex-grow: 1;
   width: 100%;
 }
 
-main section:nth-of-type(7) button {
+.pagina1 section:nth-of-type(7) button {
   background-color: var(--basis-white);
   border: 0.2em solid var(--pandora-grey);
   color: var(--basis-black);
@@ -304,13 +402,13 @@ main section:nth-of-type(7) button {
 /* ********* */
 /* section 8 */
 /* ********* */
-main section:nth-of-type(8) {
+.pagina1 section:nth-of-type(8) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-main section:nth-of-type(8) article {
+.pagina1 section:nth-of-type(8) article {
   border: 0.5em solid var(--pandora-pink);
   width: 100%;
   padding: 4em;
@@ -318,13 +416,168 @@ main section:nth-of-type(8) article {
   margin: 1em;
 }
 
-main section:nth-of-type(8) button {
+.pagina1 section:nth-of-type(8) button {
   display: flex;
   width: 80%;
   padding: 1em 2em;
   margin-top: 3em;
   justify-content: center;
 }
+
+/* ************* */
+/* Main Pagina 2 */
+/* ************* */
+
+/* ********* */
+/* section 1 */
+/* ********* */
+.pagina2 section:first-of-type {
+  position: relative;
+  margin-top: 0em;
+}
+
+.pagina2 section:first-of-type img {
+  height: 25em;
+  width: 100vw;
+  object-fit: cover;
+  margin: 0 -1em;
+}
+
+.pagina2 section:first-of-type div {
+  position: absolute;
+  top: 16em;
+  left: 1em;
+  right: 2em;
+}
+
+.pagina2 section:first-of-type div h2 {
+  text-transform: uppercase;
+  font-size: 2.5em;
+  color: var(--basis-white);
+}
+
+.pagina2 section:first-of-type div h3 {
+  text-transform: uppercase;
+  color: var(--basis-white);
+}
+
+.pagina2 section:first-of-type p {
+  text-align: center;
+  margin: 2em 1em;
+}
+
+/* ********* */
+/* section 2 */
+/* ********* */
+.pagina2 section:nth-of-type(2) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.pagina2 section:nth-of-type(2) div {
+  display: flex;
+  gap: .2em;
+}
+
+.pagina2 section:nth-of-type(2) article {
+  background-color: var(--pandora-lightgrey);
+  text-align: center;
+  padding: 0 0 2em;
+  width: 12em;
+}
+
+.pagina2 section:nth-of-type(2) article img {
+  height: 12em;
+  margin-bottom: 4em;
+  width: 100%;
+  object-fit: scale-down;
+}
+
+.pagina2 section:nth-of-type(2) article h3 {
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  color: var(--pandora-grey);
+}
+
+/* ********* */
+/* section 3 */
+/* ********* */
+.pagina2 section:nth-of-type(3) {
+  text-align: center;
+}
+
+.pagina2 section:nth-of-type(3) h2 {
+  font-size: 3.5em;
+}
+
+.pagina2 section:nth-of-type(3) p {
+  margin-top: 1em;
+}
+
+
+
+/* ********* */
+/* section 4 */
+/* ********* */
+.pagina2 section:nth-of-type(4) {
+  border: 0.5em solid var(--pandora-pink);
+  width: 86vw;
+  padding: 3em 2em 4em;
+  text-align: center;
+  margin: 1em;
+
+  display: flex;
+  align-items: center;
+  overflow-x: scroll;
+  gap: 4em;
+}
+
+.pagina2 section:nth-of-type(4) article h3{
+  font-size: 2em;
+  margin: 1.5em 0em;
+}
+
+.pagina2 section:nth-of-type(4) article p:first-of-type {
+  font-size: .5em;
+}
+
+.pagina2 section:nth-of-type(4) article p:nth-of-type(2) {
+  width: 21em;
+  padding-bottom: 1em;
+}
+
+/* ********* */
+/* section 5 */
+/* ********* */
+.pagina2 section:nth-of-type(5) img {
+  width: 100%;
+}
+
+.pagina2 section:nth-of-type(5) a {
+  text-transform: uppercase;
+}
+
+.pagina2 section:nth-of-type(5) h2 {
+  padding: 1em 0;
+  font-size: 2em;
+}
+
+.pagina2 section:nth-of-type(5) h3 {
+  padding: 1em 0;
+}
+
+.pagina2 section:nth-of-type(5) p {
+  padding-bottom: 1em;
+}
+
+.pagina2 section:nth-of-type(5) button {
+  padding: 1em 2em;
+}
+
+
+
+
 
 
 /* ****** */
