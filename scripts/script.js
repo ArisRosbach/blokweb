@@ -3,45 +3,52 @@
 //////////////
 // Buttons //
 /////////////
-var buttonElement1 = document.querySelector(".pagina1 section:first-of-type button");
-var buttonElement2 = document.querySelector(".pagina1 section:nth-of-type(4) button");
-var buttonElement3 = document.querySelector(".pagina1 section:nth-of-type(6) button");
-var buttonElement4 = document.querySelector(".pagina1 section:nth-of-type(8) button");
+var buttonElementSection4 = document.querySelector(".pagina1 section:nth-of-type(4) button");
+var imgElementSection4 = document.querySelector(".pagina1 section:nth-of-type(4) img");
+
+var buttonElementSection6 = document.querySelector(".pagina1 section:nth-of-type(6) button");
+var imgElementSection6 = document.querySelector(".pagina1 section:nth-of-type(6) img");
+
+var buttonElementSection5 = document.querySelector(".pagina2 section:nth-of-type(5) button");
+var imgElementSection5 = document.querySelector(".pagina2 section:nth-of-type(5) img");
 
 
-function buttonVeranderd() {
- buttonElement1.classList.toggle("buttonAnders");
- console.log("ik ben geklikt");
+function buttonVeranderdSection4() {
+    imgElementSection4.classList.toggle("imgDraaien");
+    console.log("ik ben ook geklikt");
 }
 
-function buttonVeranderd2() {
- buttonElement2.classList.toggle("buttonAnders");
+function buttonVeranderdSection6() {
+    imgElementSection6.classList.toggle("imgDraaien");
+    console.log("ik ben ook geklikt");
 }
 
-function buttonVeranderd3() {
- buttonElement3.classList.toggle("buttonAnders");
+function buttonVeranderdSection5() {
+    imgElementSection5.classList.toggle("imgDraaien");
+    console.log("ik ben ook geklikt");
 }
 
-function buttonVeranderd4() {
- buttonElement4.classList.toggle("buttonAnders");
+if (buttonElementSection4) {
+    buttonElementSection4.addEventListener("click", buttonVeranderdSection4);
+}
+if (buttonElementSection6) {
+    buttonElementSection6.addEventListener("click", buttonVeranderdSection6);
+}
+if (buttonElementSection5) {
+    buttonElementSection5.addEventListener("click", buttonVeranderdSection5);
 }
 
-
-buttonElement1.addEventListener("click", buttonVeranderd);
-buttonElement2.addEventListener("click", buttonVeranderd2);
-buttonElement3.addEventListener("click", buttonVeranderd3);
-buttonElement4.addEventListener("click", buttonVeranderd4);
 
 
 /////////////
 // Hartjes //
 ////////////
-var hartjeElement1 = document.querySelector(".pagina1 section:nth-of-type(5) article:first-of-type img:nth-of-type(2)");
-var hartjeElement2 = document.querySelector(".pagina1 section:nth-of-type(5) article:nth-of-type(2) img:nth-of-type(2)");
-var hartjeElement3 = document.querySelector(".pagina1 section:nth-of-type(5) article:nth-of-type(3) img:nth-of-type(2)");
-var hartjeElement4 = document.querySelector(".pagina1 section:nth-of-type(5) article:nth-of-type(4) img:nth-of-type(2)");
-var hartjeElement5 = document.querySelector(".pagina1 section:nth-of-type(5) article:nth-of-type(5) img:nth-of-type(2)");
-var hartjeElement6 = document.querySelector(".pagina1 section:nth-of-type(5) article:nth-of-type(6) img:nth-of-type(2)");
+var hartjeElement1 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:first-of-type img:nth-of-type(2)");
+var hartjeElement2 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(2) img:nth-of-type(2)");
+var hartjeElement3 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(3) img:nth-of-type(2)");
+var hartjeElement4 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(4) img:nth-of-type(2)");
+var hartjeElement5 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(5) img:nth-of-type(2)");
+var hartjeElement6 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(6) img:nth-of-type(2)");
 
 
 function plaatjeVeranderd1() {
@@ -78,9 +85,21 @@ function plaatjeVeranderd6() {
 }
 
 
-hartjeElement1.addEventListener("click", plaatjeVeranderd1);
-hartjeElement2.addEventListener("click", plaatjeVeranderd2);
-hartjeElement3.addEventListener("click", plaatjeVeranderd3);
-hartjeElement4.addEventListener("click", plaatjeVeranderd4);
-hartjeElement5.addEventListener("click", plaatjeVeranderd5);
-hartjeElement6.addEventListener("click", plaatjeVeranderd6);
+if (hartjeElement1) {
+    hartjeElement1.addEventListener("click", plaatjeVeranderd1);
+}
+if (hartjeElement2) {
+    hartjeElement2.addEventListener("click", plaatjeVeranderd2);
+}
+if (hartjeElement3) {
+    hartjeElement3.addEventListener("click", plaatjeVeranderd3);
+}
+if (hartjeElement4) {
+    hartjeElement4.addEventListener("click", plaatjeVeranderd4);
+}
+if (hartjeElement5) {
+    hartjeElement5.addEventListener("click", plaatjeVeranderd5);
+}
+if (hartjeElement6) {
+    hartjeElement6.addEventListener("click", plaatjeVeranderd6);
+}
