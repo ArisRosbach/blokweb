@@ -184,15 +184,15 @@ Wanneer ik door de verschillende sieraden categorieën heen tab krijg ik het vol
 Ik snap niet helemaal waarom hij daar het woord bedels begint te spellen. Terwijl bij de andere categorieën hij gewoon het woord zegt. 
 Want het is logisch dat hij eerst de alt van de afbeelding voorleest en vervolgens de heading omdat dat binnen de link is geplaatst.
 
-<img src="images/ReadMe/ScreenReaderBedels.png" height="300px" width="100%" alt="Schermafbeelding van de bedels met screen reader">
+<img src="images/ReadMe/ScreenReaderBedels.png" width="100%" alt="Schermafbeelding van de bedels met screen reader">
 
 Het is omdat ik het weet dat je wanneer je op het hartje klikt dat je de bedel toevoegt aan je verlanglijstje. Dus wanneer ik daar weet te komen met de screenreader en op enter klikt kan ik dat wel activeren. Maar dat krijg ik niet te horen ofzo.
 
-<img src="images/ReadMe/ScreenReaderButton.png" height="300px" width="100%" alt="Schermafbeelding van een button met screen reader">
+<img src="images/ReadMe/ScreenReaderButton.png" width="100%" alt="Schermafbeelding van een button met screen reader">
 
 De buttons zijn wel gewoon duidelijk. Daar wordt gezegd: Nu shoppen, knop. Dus je weet dat je er kunt shoppen en dat het een knop is waar je op kunt doorklikken.
 
-<img src="images/ReadMe/ScreenReaderFooter.png" height="300px" width="100%" alt="Schermafbeelding van de footer met screen reader">
+<img src="images/ReadMe/ScreenReaderFooter.png" width="100%" alt="Schermafbeelding van de footer met screen reader">
 
 De socialbuttons vond ik ook duidelijk. Dit komt omdat de afbeeldingen worden voorgelezen en die hebben een goede duidelijk en korte alt tekst.
 En eigenlijk is ook het formulier erg duidelijk. Zodra je daar komt vertelt het je eerst een gek woord wat ik niet kan verstaan, maar daarna zegt het de placeholder tekst, daar heb ik staan: Typ je mail in. Dus dit is echt heel duidelijk zo. Wanneer je hebt getypt is het daarna ook heel duidelijk dat je met de knop ernaast kunt verzenden.
@@ -200,7 +200,7 @@ En eigenlijk is ook het formulier erg duidelijk. Zodra je daar komt vertelt het 
 
 
 #### Spasmes/Parkinson 
-<img src="images/ReadMe/TestSpasmes.jpg" height="300px" width="100%" alt="Foto van mij met het schok apparaatje">
+<img src="images/ReadMe/TestSpasmes.jpg" height="300px" alt="Foto van mij met het schok apparaatje">
 
 Om dit na te bootsen kregen we schokjes door onze arm waardoor je erg begint te trillen en schokken.
 Vooral met mijn muis navigeren vond ik het moeilijkst. Door het trillen en schokken was is soms per ongeluk aan het klikken op niets. Maar wanneer je dit een beetje onder controle weet te houden merk je dat ik mijn knoppen groot genoeg heb gemaakt want hier kun je prima op klikken.
