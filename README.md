@@ -286,10 +286,10 @@ Voor nu wil ik dan ook alle puntjes op de i gaan zetten. Ik wil al mijn code nog
 <img src="images/ReadMe/CodeHTMLMain3.JPG" height="260px" alt="Schermafbeelding van de main HTML">
 <img src="images/ReadMe/CodeCSSMain3.JPG" height="260px" alt="Schermafbeelding van de main CSS">
 
-<img src="images/ReadMe/SchermafbeeldingVoortgang3.1.JPG" height="300px" alt="Schermafbeelding van de voortgang 1">
-<img src="images/ReadMe/SchermafbeeldingVoortgang3.2.JPG" height="300px" alt="Schermafbeelding van de voortgang 2">
-<img src="images/ReadMe/SchermafbeeldingVoortgang3.3.JPG" height="300px" alt="Schermafbeelding van de voortgang 3">
-<img src="images/ReadMe/SchermafbeeldingVoortgang3.4.JPG" height="300px" alt="Schermafbeelding van de voortgang 4">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.1.png" height="300px" alt="Schermafbeelding van de voortgang 1">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.2.png" height="300px" alt="Schermafbeelding van de voortgang 2">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.3.png" height="300px" alt="Schermafbeelding van de voortgang 3">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.4.png" height="300px" alt="Schermafbeelding van de voortgang 4">
 
 
 ### Agenda voor meeting
