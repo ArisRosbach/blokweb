@@ -75,7 +75,7 @@ Verzorging en Onderhoud<br>
 
 ## Voortgang 1 (week 2)
 
-<details open>
+<details>
 <summary>uitwerken voor 1e voortgang</summary>
 
 ### Stand van zaken
@@ -256,7 +256,17 @@ Ook nu kan je er weer omheen kijken, maar in het echt natuurlijk niet. Ook hierb
 ### Oplossingen:
 
 #### Oplossing 1
-blablablallalbalbl
+Wat ik duidelijk moet veranderen is de roze hover kleur. Deze heb ik nu donkerder gemaakt. Daarnaast heb ik bij het hamburgermenu de kleur grijs veranderd naar en lichtere variant.
+
+<img src="images/ReadMe/SchermafbeeldingOplossing1.JPG" width="100%" alt="Schermafbeelding van de before en after oplossing 1">
+
+Ook heb ik het formulier iets duidelijker gemaakt door boven de input neer te zetten dat je daar je email moet invullen.
+
+<img src="images/ReadMe/SchermafbeeldingOplossing2.JPG" width="100%" alt="Schermafbeelding van de  oplossing 2">
+
+Daarnaast heb ik de stippellijn in de focus state duidelijker gemaakt. Eerst stond die tussen de linkjes in maar nu is deze iets dichter onder de gefocuste link  gezet, waardoor er geen verwarring meer ontstaat waar het streepje bij hoort.
+
+<img src="images/ReadMe/SchermafbeeldingOplossing3.JPG" width="100%" alt="Schermafbeelding van de before en after oplossing 3">
 
 
 </details>
