@@ -173,11 +173,11 @@ De screen reader leest alle linkjes van boven naar beneden voor.
 Wanneer die bij het hamburgermenu komt is dit wel wat verwarrend want als je op enter klikt, wordt het menu uitgeklapt. Er wordt dan gezegd: Selectievakje ingeschakeld. 
 Al is dat natuurlijk niet echt relevant omdat je als je blind bent toch niet alle linkjes ziet maar deze worden wel gewoon voorgelezen dus dat is goed. 
 
-<img src="images/ReadMe/ScreenReaderNavigatie.png" height="300px" alt="Schermafbeelding van de navigatie met screen reader">
+<img src="images/ReadMe/ScreenReaderNavigatie.png" width="100%" alt="Schermafbeelding van de navigatie met screen reader">
 
 Ook lukt het me om door het verdere menu te gaan, nadat alle linkjes in het hamburger menu zijn voorgelezen. Hierbij leest hij de naam van de icoon afbeelding voor. Is eigenlijk wel duidelijk genoeg.
 
-<img src="images/ReadMe/ScreenReaderCategorieen.png" height="300px" width="100%" alt="Schermafbeelding van de categorieen met screen reader">
+<img src="images/ReadMe/ScreenReaderCategorieen.png" width="100%" alt="Schermafbeelding van de categorieen met screen reader">
 
 (de focus state is hier nog niet helemaal zoals ik in gedachten heb want de tekst is plots naar links uitgelijnd, dit wordt nog aangepast.)
 Wanneer ik door de verschillende sieraden categorieën heen tab krijg ik het volgende te horen: “Koppeling, klik hier om naar alle bedels te gaan. B E D E L S”
@@ -234,7 +234,7 @@ Met blur zie je heel wazig. Hierbij zie je je muis bijna niet. Bij mijn site wor
 Daarnaast is het Pandora Logo in de navigatie heel groot. Dus is met veel concentratie weet je wel dat je op de Pandora site zit.
 
 ##### Low contrast
-<img src="images/ReadMe/TestLowContrast" height="300px" alt="Foto van mij met het schok apparaatje">
+<img src="images/ReadMe/TestLowContrast.jpg" height="300px" alt="Foto van menu door low contrast bril">
 
 Met deze bril is de contrast tussen kleuren erg laag. 
 Vooral hierbij werd duidelijk dat de roze fontkleur als je hovert echt niet goed meer is te lezen. Deze kleur moet wat donkerder worden om niet weg te vallen tegen het grijs. Of het grijs moet wat lichter worden van kleur.
@@ -271,26 +271,36 @@ blablablallalbalbl
 <summary>uitwerken voor 3e voortgang</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Eigenlijk ben ik een heel eind met mijn website. Zowel mijn 1e als 2e pagina is nu responsive. Bij sommige sections heb ik hiervoor grid gebruikt. Daarnaast heb ik ook alle hover, focus en active states toegevoegd. Deze wil ik alleen nu nog mooi maken, want het feit dat ze zijn toegevoegd betekend niet dat ze allemaal even mooi werken, vooral in verschillende schermformaten doen ze soms nog wel eens lastig.
+Voor nu wil ik dan ook alle puntjes op de i gaan zetten. Ik wil al mijn code nog eens langs om onnodige weg te halen. En ik begrijp nu wel wat er staat maar de comments wil ik wat verder uitbereiden zodat iedereen die er naar kijkt het snapt. Dus daar ben ik ook mee bezig. <br>
+<img src="images/ReadMe/CodeHTMLMain3.JPG" height="260px" alt="Schermafbeelding van de main HTML">
+<img src="images/ReadMe/CodeCSSMain3.JPG" height="260px" alt="Schermafbeelding van de main CSS">
+
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.1.JPG" height="300px" alt="Schermafbeelding van de voortgang 1">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.2.JPG" height="300px" alt="Schermafbeelding van de voortgang 2">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.3.JPG" height="300px" alt="Schermafbeelding van de voortgang 3">
+<img src="images/ReadMe/SchermafbeeldingVoortgang3.4.JPG" height="300px" alt="Schermafbeelding van de voortgang 4">
 
 
 ### Agenda voor meeting
-samen met je groepje opstellen
+ook dit keer weer samen opgesteld met mijn groepje:
 
-| student 1      | student 2          | student 3    | student 4        |
+| Max van Liempt  | Zoe Reijinga  | Laurens Duin  | Aris Rosbach  |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
+| Heeft geen vragen | Heeft ook geen specifieke vraag | Heeft ook geen agendapunt | En bij mij gaat het eigenlijk ook wel goed |
 | ...            | ...                | ...          | ...              |
 
 
 ### Verslag van meeting
-hier na afloop snel de uitkomsten van de meeting vastleggen
+Eigenlijk waren we dit keer een heel saai groepje zonder specifieke vragen. Alle 4 zijn we bezig om de puntjes op de i te zetten. 
+Tijdens de meeting hebben we dus vooral even laten zien hoever we ieder waren en verteld wat we nog wilden gaan doen.
 
-- punt 1
-- punt 2
-- nog een punt
-- ...
+- Laurens had zijn website laten zien. Deze zag er echt al super uit. Voor nu is hij bezig om de 2e pagina helemaal af te krijgen. Hierbij had hij nog wel de vraag of het erg was dat hij veel had weggelaten in vergelijking met de "officiele" site. Maar dit is geen punt, het gaat er om dat je genoeg kunt laten zien.
+- Ik heb vervolgens laten zien waar ik mee bezig was. Ook ik was al heel erg lekker bezig en ik kon laten zien dat ik bezig was geweest met responsive maken.
+- Zoë was ook al heel erg ver en had verder geen vragen. Ook zij zal bezig zijn met de puntjes op de i te zetten. Wel zei ze dat Coolblue een afbeelding had gebruikt voor tekst en dat zij dat ook had gedaan. Dus voor haar nu de uitdaging om dit zelf wel als text te coderen.
+- Bij Max zag alles er ook goed uit. Hij was ook al heel erg ver. Hij gaat vooral nu aan de slag nog met de hover, focus en active state want dat had hij nog niet toegepast.
+
+Nadat we elkaars werk hadden gezien was ik zelf echt heel erg onder de indruk. Ik kreeg bijna het idee dat ik zelf opeens niet genoeg had gedaan ofzo. Ik wil opeens nog meer maken om zelf ook een nog mooiere website te maken. Maar dat komt deels denk ik ook omdat je er zelf elke dag wel naar kijkt en daardoor even uit het oog verlies hoe goed het wel niet is. Want het is gewoon heel goed!
 
 </details>
 
@@ -324,11 +334,19 @@ hier screenshot(s) van je eindresultaat
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 
 1. https://nl.pandora.net/nl/
-2. https://codepen.io/shooft/pen/vYZKQPX
-3. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-4. https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
-5. ...
-6. ...
+2. https://uk.pandora.net/en/
+3. https://codepen.io/shooft/pen/vYZKQPX
+4. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+5. https://www.w3schools.com/howto/howto_css_style_hr.asp
+6. https://codepen.io/erikterwan/pen/EVzeRP
+7. https://codepen.io/shooft/pen/eYRdEPm
+8. https://developer.mozilla.org/en-US/docs/Web/CSS/overflow
+9. https://codepen.io/shooft/pen/abwLyvm
+10. https://css-tricks.com/almanac/properties/a/animation/
+11. https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
+12. https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+
+
 
 
 </details>
