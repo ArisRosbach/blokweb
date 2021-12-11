@@ -12,7 +12,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 ## Jij
 
-<details>
+<details open>
 <summary>uitwerken voor kick-off werkgroep</summary>
 
 ### Auteur:
@@ -355,6 +355,10 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 10. https://css-tricks.com/almanac/properties/a/animation/
 11. https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
 12. https://www.digitalocean.com/community/tutorials/css-cropping-images-object-fit
+13. https://codepen.io/shooft/pen/abwLwRO?editors=1100 
+14. https://www.w3schools.com/howto/howto_css_placeholder.asp
+15. https://codepen.io/shooft/pen/ExXRLXL?editors=1010s
+16. https://dlo.mijnhva.nl/d2l/le/content/324289/Home
 
 
 

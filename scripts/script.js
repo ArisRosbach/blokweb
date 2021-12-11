@@ -1,8 +1,8 @@
 // JavaScript Document
 
-//////////////
+///////////////////////////////////////////////////////////////////////////////////
 // Buttons //
-/////////////
+///////////////////////////////////////////////////////////////////////////////////
 var buttonElementSection4 = document.querySelector(".pagina1 section:nth-of-type(4) button");
 var imgElementSection4 = document.querySelector(".pagina1 section:nth-of-type(4) img");
 
@@ -14,35 +14,39 @@ var imgElementSection5 = document.querySelector(".pagina2 section:nth-of-type(5)
 
 
 function buttonVeranderdSection4() {
-    imgElementSection4.classList.toggle("imgDraaien");
+    imgElementSection4.classList.toggle("imgBewegen");
     console.log("ik ben ook geklikt");
 }
 
 function buttonVeranderdSection6() {
-    imgElementSection6.classList.toggle("imgDraaien");
+    imgElementSection6.classList.toggle("imgBewegen");
     console.log("ik ben ook geklikt");
 }
 
 function buttonVeranderdSection5() {
-    imgElementSection5.classList.toggle("imgDraaien");
+    imgElementSection5.classList.toggle("imgBewegen");
     console.log("ik ben ook geklikt");
 }
 
+
+// Checken of element bestaat en anders overslaan
 if (buttonElementSection4) {
     buttonElementSection4.addEventListener("click", buttonVeranderdSection4);
 }
+// Checken of element bestaat en anders overslaan
 if (buttonElementSection6) {
     buttonElementSection6.addEventListener("click", buttonVeranderdSection6);
 }
+// Checken of element bestaat en anders overslaan
 if (buttonElementSection5) {
     buttonElementSection5.addEventListener("click", buttonVeranderdSection5);
 }
 
 
 
-/////////////
+///////////////////////////////////////////////////////////////////////////////////
 // Hartjes //
-////////////
+///////////////////////////////////////////////////////////////////////////////////
 var hartjeElement1 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:first-of-type img:nth-of-type(2)");
 var hartjeElement2 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(2) img:nth-of-type(2)");
 var hartjeElement3 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(3) img:nth-of-type(2)");
@@ -85,21 +89,45 @@ function plaatjeVeranderd6() {
 }
 
 
+// Checken of element bestaat en anders overslaan
 if (hartjeElement1) {
     hartjeElement1.addEventListener("click", plaatjeVeranderd1);
 }
+// Checken of element bestaat en anders overslaan
 if (hartjeElement2) {
     hartjeElement2.addEventListener("click", plaatjeVeranderd2);
 }
+// Checken of element bestaat en anders overslaan
 if (hartjeElement3) {
     hartjeElement3.addEventListener("click", plaatjeVeranderd3);
 }
+// Checken of element bestaat en anders overslaan
 if (hartjeElement4) {
     hartjeElement4.addEventListener("click", plaatjeVeranderd4);
 }
+// Checken of element bestaat en anders overslaan
 if (hartjeElement5) {
     hartjeElement5.addEventListener("click", plaatjeVeranderd5);
 }
+// Checken of element bestaat en anders overslaan
 if (hartjeElement6) {
     hartjeElement6.addEventListener("click", plaatjeVeranderd6);
+}
+
+
+
+
+///////////////////////////////////////////////////////////////////////////////////
+// darkmode //
+///////////////////////////////////////////////////////////////////////////////////
+var colorModeInput = document.querySelector("footer section:nth-of-type(3) input");
+
+colorModeInput.addEventListener('change', erisopmijgeklikt);
+
+function erisopmijgeklikt() {
+  if( colorModeInput.checked ) {
+    document.documentElement.classList.add("darkMode");
+  } else {
+    document.documentElement.classList.remove("darkMode");
+  }
 }

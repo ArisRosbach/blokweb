@@ -1,6 +1,6 @@
-/* ************ */
+/* *************************** */
 /* CSS Document */
-/* ************ */
+/* *************************** */
 *,
 *::after,
 *::before {
@@ -10,20 +10,53 @@
 }
 
 
-/* ******** */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 /* Algemeen */
-/* ******** */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 :root {
+  /* Alle kleuren */
   --pandora-pink: #ffcad4;
   --pandora-pink-dark: #ffa4b5;
   --pandora-grey: #d0d1d2;
+  --pandora-grey-dark: grey;
   --pandora-lightgrey: #f5f5f5;
   --pandora-footergrey: #f0f0f0;
+  --header-color: white;
   --basis-black: black;
   --basis-white: white;
 }
 
+/* Darkmode met de knop */
+@media (prefers-color-scheme:light) {
+  :root.darkMode {
+    --pandora-pink: #ff8ca1;
+    --pandora-pink-dark: #ffa4b5;
+    --pandora-grey: #535353;
+    --pandora-grey-dark: #303030;
+    --pandora-lightgrey: #707070;
+    --pandora-footergrey: #6b6b6b;
+    --header-color: var(--pandora-pink);
+    --basis-black: white;
+    --basis-white: black;
+  }
+}
 
+/* Darkmode wanneer zelf ingeschakeld */
+@media (prefers-color-scheme:dark) {
+  :root {
+    --pandora-pink: #ff8ca1;
+    --pandora-pink-dark: #ffa4b5;
+    --pandora-grey: #535353;
+    --pandora-grey-dark: #303030;
+    --pandora-lightgrey: #707070;
+    --pandora-footergrey: #6b6b6b;
+    --header-color: var(--pandora-pink);
+    --basis-black: white;
+    --basis-white: black;
+  }
+}
 
 body {
   font-family: stolzl, sans-serif;
@@ -40,7 +73,7 @@ button {
   font-family: stolzl, sans-serif;
   background-color: var(--basis-black);
   color: var(--basis-white);
-  border: none;
+  border: 0.1em solid var(--basis-white);
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -48,6 +81,7 @@ button {
   padding: 1em 2em;
 }
 
+/* hover, focuse en active state voor buttons */
 button:hover {
   background-color: var(--pandora-pink);
   color: var(--basis-black);
@@ -73,6 +107,7 @@ button:active {
   transition: none;
 }
 
+/* Alle tekst in de kleur zwart */
 p,
 h1,
 h2,
@@ -85,31 +120,33 @@ section {
   margin: 3em 0;
 }
 
+/* Horizontale lijn */
 hr {
   width: 100%;
-  border-top: 5px solid var(--pandora-pink);
+  border-top: 0.4em solid var(--pandora-pink);
 }
 
 :focus {
   outline: none;
-  /* border: dashed 0.2em var(--basis-black); */
-  /* text-decoration: underline;  */
 }
 
 
-/* ****** */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 /* Header */
-/* ****** */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 header {
   display: flex;
   flex-wrap: wrap;
   position: fixed;
   width: 100%;
   top: 0;
-  background: white;
+  background: var(--header-color);
   z-index: 1;
 }
 
+/* Bovenste link in header in het midden */
 header div {
   display: flex;
   justify-content: center;
@@ -118,18 +155,18 @@ header div {
 }
 
 header div a {
-  padding: 1em 0em;
+  padding: 0.5em 0em;
   font-size: 0.7em;
 }
 
+/* hover, focuse en active state voor header divjes */
 header div a:hover {
-  color: var(--pandora-pink);
+  color: var(--pandora-pink-dark);
   transition: 0.5s;
 }
 
 header div a:focus {
   border: none;
-  padding: 1em 0em 0.5em;
   text-decoration: none;
   border-bottom: 0.2em dashed var(--basis-black);
   transition: 0.5s;
@@ -138,7 +175,6 @@ header div a:focus {
 header div a:active {
   border: none;
   color: var(--pandora-pink-dark);
-  padding: 1em 0em 0.5em;
   text-decoration: none;
   border-bottom: 0.2em solid var(--basis-black);
 }
@@ -166,6 +202,7 @@ header nav img {
   width: 2.5em;
 }
 
+/* hover, focuse en active state voor header img in nav */
 header nav a:hover img {
   transform: scale(1.2);
   transition: 0.2s;
@@ -183,7 +220,7 @@ header nav a:active img {
   transition: 0.2s;
 }
 
-
+/* Pandora logo img */
 header nav li:nth-of-type(3) img {
   width: 30vw;
   height: 5em;
@@ -203,20 +240,20 @@ header ul div {
 
 header ul div a {
   text-decoration: none;
-  color: #232323;
-  /* transition: 0.3s; */
+  color: var(--basis-black);
 }
 
 header ul div input {
   display: block;
-  width: 40px;
-  height: 32px;
+  width: 3em;
+  height: 3em;
   position: absolute;
   cursor: pointer;
   opacity: 0;
   z-index: 2;
 }
 
+/* Uiterlijk hamburgermenu uitgeklapt */
 header ul div ul {
   position: absolute;
   width: 102vw;
@@ -226,7 +263,7 @@ header ul div ul {
   padding: 8em 3em 4em 5em;
   justify-content: flex-end;
   align-items: end;
-  background: #ededed;
+  background: var(--pandora-lightgrey);
   flex-direction: column;
   transform-origin: 0% 0%;
   transform: translate(-100%, 0);
@@ -237,11 +274,12 @@ header ul div ul li {
   padding: .5em 0;
   font-size: 2em;
   padding: 0.7em 0;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
+/* hover state voor linkjes in hmaburgermenu */
 header ul div ul a:hover {
-  color: var(--pandora-pink);
+  color: var(--pandora-pink-dark);
   transition: color .2s;
 }
 
@@ -260,7 +298,25 @@ header ul div span {
   position: relative;
   background: var(--basis-black);
   z-index: 1;
-  transform-origin: 4px 0px;
+  transform-origin: 0.4em 0em;
+}
+
+/* hover, focuse en active state voor spans die hamburger icoon maken */
+header ul div:hover span {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+
+header ul div:focus span {
+  transform: scale(1.2);
+  border-bottom: 0.2em dashed var(--basis-black);
+  transition: 0.2s;
+}
+
+header ul div:active span {
+  transform: scale(0.8);
+  border-bottom: 0.2em solid var(--basis-black);
+  transition: 0.2s;
 }
 
 header ul div span:first-child {
@@ -274,7 +330,7 @@ header ul div span:nth-last-child(2) {
 /* maak van bovenste span een kruisje */
 header ul div input:checked~span {
   margin-left: 1em;
-  transform: rotate(45deg) translate(-2px, -1px);
+  transform: rotate(45deg) translate(-0.2em, 0em);
 }
 
 /* laat middelste span verdwijnen */
@@ -285,10 +341,10 @@ header ul div input:checked~span:nth-last-child(3) {
 
 /* maak van onderste span een kruisje */
 header ul div input:checked~span:nth-last-child(2) {
-  transform: rotate(-45deg) translate(0, -1px);
+  transform: rotate(-45deg) translate(0, -0.1em);
 }
 
-
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   header nav {
     justify-content: space-evenly;
@@ -299,6 +355,7 @@ header ul div input:checked~span:nth-last-child(2) {
     width: 90%;
   }
 
+  /* Pandora logo img */
   header nav li:nth-of-type(3) img {
     width: 20vw;
     height: 8em;
@@ -320,6 +377,7 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
+/* Zodra pagina minimaal 65em breed is */
 @media (min-width:65em) {
   header ul div ul {
     margin: -8em -4em 0em -7em;
@@ -330,13 +388,16 @@ header ul div input:checked~span:nth-last-child(2) {
 }
 
 
-/* ************* */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 /* Main Pagina 1 */
-/* ************* */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 
-/* ********* */
+
+/* *************************************************************************** */
 /* section 1 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:first-of-type {
   position: relative;
 }
@@ -346,7 +407,7 @@ header ul div input:checked~span:nth-last-child(2) {
   width: 100vw;
   object-fit: cover;
   object-position: 20%;
-  margin: 0 -1em;
+  margin: 0em -1em;
 }
 
 .pagina1 section:first-of-type button {
@@ -355,9 +416,11 @@ header ul div input:checked~span:nth-last-child(2) {
   left: 0;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina1 section:first-of-type img {
     padding: 0em 0em 0em 25em;
+    margin: 2em -1em 0em;
   }
 
   .pagina1 section:first-of-type button {
@@ -366,9 +429,9 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
-/* ********* */
+/* *************************************************************************** */
 /* section 2 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(2) {
   position: relative;
 }
@@ -380,11 +443,12 @@ header ul div input:checked~span:nth-last-child(2) {
   margin: 0 -1em;
 }
 
+/* Om alle tekst over de img te zetten */
 .pagina1 section:nth-of-type(2) div {
   position: absolute;
   bottom: 3em;
   left: 1em;
-  right: 5em;
+  right: 4em;
 }
 
 .pagina1 section:nth-of-type(2) div h2 {
@@ -402,6 +466,7 @@ header ul div input:checked~span:nth-last-child(2) {
   margin-top: 0.5em;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina1 section:nth-of-type(2) img {
     height: 40em;
@@ -413,9 +478,9 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
-/* ********* */
+/* *************************************************************************** */
 /* section 3 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(3) {
   display: flex;
   flex-wrap: wrap;
@@ -437,7 +502,7 @@ header ul div input:checked~span:nth-last-child(2) {
   flex-grow: 1;
   flex-basis: 30%;
   padding: 0.5em;
-  height: 15em;
+  height: 12em;
 }
 
 .pagina1 section:nth-of-type(3) a {
@@ -446,13 +511,14 @@ header ul div input:checked~span:nth-last-child(2) {
   width: 100%;
 }
 
-.pagina1 section:nth-of-type(3) a:hover { 
+/* hover, focuse en active state voor categorieën */
+.pagina1 section:nth-of-type(3) a:hover {
   border: 0.2em solid var(--basis-black);
 }
 
 .pagina1 section:nth-of-type(3) a:hover h3 {
   font-size: 1.2em;
-  width: 11em;
+  width: 100%;
 }
 
 .pagina1 section:nth-of-type(3) a:focus {
@@ -463,11 +529,11 @@ header ul div input:checked~span:nth-last-child(2) {
 
 .pagina1 section:nth-of-type(3) a:focus h3 {
   font-size: 1.2em;
-  width: 11em;
+  width: 100%;
 }
 
 .pagina1 section:nth-of-type(3) a:active {
-  border: 0.2em solid var(--basis-black);
+  border: 0.2em solid var(--pandora-pink-dark);
   transition: 0.1s;
 }
 
@@ -480,14 +546,17 @@ header ul div input:checked~span:nth-last-child(2) {
 
 .pagina1 section:nth-of-type(3) a h3 {
   text-transform: uppercase;
-  letter-spacing: 1px;
+  letter-spacing: 0.1em;
   font-size: 0.9em;
   padding: 1em 0em;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina1 section:nth-of-type(3) li {
     flex-basis: 15%;
+    height: 15em;
+
   }
 
   .pagina1 section:nth-of-type(3) a img {
@@ -495,7 +564,10 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
+/* Zodra pagina minimaal 62em breed is */
 @media (min-width:62em) {
+
+  /* Met grid tekst en categorieën naast elkaar zetten */
   .pagina1 section:nth-of-type(3) {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -520,25 +592,23 @@ header ul div input:checked~span:nth-last-child(2) {
 
   .pagina1 section:nth-of-type(3) a:hover h3 {
     font-size: 0.9em;
-    width: inherit;
   }
-  
+
   .pagina1 section:nth-of-type(3) a:focus {
     border: 0.2em dashed var(--basis-black);
     text-decoration: underline;
     transition: 0.1s;
   }
-  
+
   .pagina1 section:nth-of-type(3) a:focus h3 {
     font-size: 0.9em;
-    width: 0em;
   }
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* Section 4 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(4) h2 {
   padding: 1em 0;
 }
@@ -548,7 +618,8 @@ header ul div input:checked~span:nth-last-child(2) {
   transition: .5s;
 }
 
-.pagina1 section:nth-of-type(4) img.imgDraaien {
+/* Wanneer geklikt op button, met JavaScript img laten bewegen */
+.pagina1 section:nth-of-type(4) img.imgBewegen {
   transform: scale(0.9);
   animation-name: imgBounce;
   animation-duration: .5s;
@@ -572,8 +643,10 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
-
+/* Zodra pagina minimaal 50em breed is */
 @media (min-width:50em) {
+
+  /* Met grid tekst en afbeelding naast elkaar */
   .pagina1 section:nth-of-type(4) {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -593,6 +666,7 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
+/* Zodra pagina minimaal 60em breed is */
 @media (min-width:60em) {
   .pagina1 section:nth-of-type(4) h2 {
     font-size: 2em;
@@ -600,14 +674,15 @@ header ul div input:checked~span:nth-last-child(2) {
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* Section 5 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(5) {
   display: flex;
   flex-wrap: wrap;
 }
 
+/* Tekst bovenaan de bedels laten staan */
 .pagina1 section:nth-of-type(5) h2 {
   display: flex;
   flex-grow: 1;
@@ -623,6 +698,7 @@ header ul div input:checked~span:nth-last-child(2) {
   text-decoration: none;
 }
 
+/* Door artikelen (bedels) kunnen laten scrollen */
 .pagina1 section:nth-of-type(5) ul {
   display: flex;
   overflow-x: scroll;
@@ -645,9 +721,9 @@ header ul div input:checked~span:nth-last-child(2) {
   width: 12em;
 }
 
+/* Niet meer kunnen scrollen door dit divje */
 .pagina1 section:nth-of-type(5) article div {
   display: flex;
-
   overflow-x: unset;
 }
 
@@ -659,6 +735,22 @@ header ul div input:checked~span:nth-last-child(2) {
 .pagina1 section:nth-of-type(5) article div img:nth-of-type(2) {
   height: 3em;
   margin-bottom: 1em;
+  cursor: pointer;
+}
+
+/* hover en active state voor hartjes */
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(2):hover {
+  transform: scale(1.1);
+}
+
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(2):active {
+  transform: scale(0.9);
+}
+
+/* Met javaScript img veranderen naar ander hartje */
+.pagina1 section:nth-of-type(5) article div img:nth-of-type(2).hartjeVol {
+  animation-name: hartje-animation;
+  animation-duration: 1s;
 }
 
 /* Wanneer hartje wordt geklikt draait die rond */
@@ -670,11 +762,6 @@ header ul div input:checked~span:nth-last-child(2) {
   100% {
     transform: rotate(360deg);
   }
-}
-
-.pagina1 section:nth-of-type(5) article div img:nth-of-type(2).hartjeVol {
-  animation-name: hartje-animation;
-  animation-duration: 1s;
 }
 
 .pagina1 section:nth-of-type(5) article img {
@@ -690,6 +777,7 @@ header ul div input:checked~span:nth-last-child(2) {
   color: var(--pandora-grey);
 }
 
+/* Zodra pagina minimaal 50em breed is */
 @media (min-width:50em) {
   .pagina1 section:nth-of-type(5) article {
     height: 30em;
@@ -710,11 +798,12 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
+/* Zodra pagina minimaal 70em breed is */
 @media (min-width:70em) {
   .pagina1 section:nth-of-type(5) article {
     height: 35em;
   }
-  
+
   .pagina1 section:nth-of-type(5) article p {
     width: 25em;
     padding: 0 5em;
@@ -731,15 +820,16 @@ header ul div input:checked~span:nth-last-child(2) {
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* section 6 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(6) img {
   width: 100%;
   transition: .5s;
 }
 
-.pagina1 section:nth-of-type(6) img.imgDraaien {
+/* Wanneer geklikt op button, met JavaScript img laten bewegen */
+.pagina1 section:nth-of-type(6) img.imgBewegen {
   transform: scale(0.9);
   animation-name: imgBounce;
   animation-duration: .5s;
@@ -757,7 +847,10 @@ header ul div input:checked~span:nth-last-child(2) {
   padding-bottom: 1em;
 }
 
+/* Zodra pagina minimaal 50em breed is */
 @media (min-width:50em) {
+
+  /* Met grid tekst en afbeelding naast elkaar */
   .pagina1 section:nth-of-type(6) {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -781,6 +874,7 @@ header ul div input:checked~span:nth-last-child(2) {
   }
 }
 
+/* Zodra pagina minimaal 60em breed is */
 @media (min-width:60em) {
   .pagina1 section:nth-of-type(6) h2 {
     font-size: 2em;
@@ -788,9 +882,9 @@ header ul div input:checked~span:nth-last-child(2) {
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* section 7 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(7) {
   position: relative;
 }
@@ -800,10 +894,10 @@ header ul div input:checked~span:nth-last-child(2) {
   opacity: 0.5;
 }
 
+/* Met div tekst en buttons over plaatje zetten */
 .pagina1 section:nth-of-type(7) div {
   position: absolute;
   bottom: 0em;
-
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -828,6 +922,7 @@ header ul div input:checked~span:nth-last-child(2) {
   margin: 1em;
 }
 
+/* hover, focuse en active state voor buttons section 7 */
 section:nth-of-type(7) button:hover {
   background-color: var(--pandora-pink);
   border: 0.2em solid var(--basis-black);
@@ -852,6 +947,7 @@ section:nth-of-type(7) button:active {
   transition: none;
 }
 
+/* Zodra pagina minimaal 30em breed is */
 @media (min-width:30em) {
   .pagina1 section:nth-of-type(7) img {
     height: 25em;
@@ -876,6 +972,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina1 section:nth-of-type(7) img {
     height: 35em;
@@ -886,6 +983,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 50em breed is */
 @media (min-width:50em) {
   .pagina1 section:nth-of-type(7) img {
     height: 35em;
@@ -897,9 +995,9 @@ section:nth-of-type(7) button:active {
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* section 8 */
-/* ********* */
+/* *************************************************************************** */
 .pagina1 section:nth-of-type(8) {
   display: flex;
   flex-wrap: wrap;
@@ -921,6 +1019,7 @@ section:nth-of-type(7) button:active {
   justify-content: center;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina1 section:nth-of-type(8) article {
     width: 65%;
@@ -932,13 +1031,15 @@ section:nth-of-type(7) button:active {
   }
 }
 
-/* ************* */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 /* Main Pagina 2 */
-/* ************* */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 
-/* ********* */
+/* *************************************************************************** */
 /* section 1 */
-/* ********* */
+/* *************************************************************************** */
 .pagina2 section:first-of-type {
   position: relative;
   margin-top: 0em;
@@ -951,9 +1052,10 @@ section:nth-of-type(7) button:active {
   margin: 0 -1em;
 }
 
+/* Met div alle tekst over de img kunnen zetten */
 .pagina2 section:first-of-type div {
   position: absolute;
-  top: 16em;
+  top: 14em;
   left: 1em;
   right: 2em;
 }
@@ -974,6 +1076,7 @@ section:nth-of-type(7) button:active {
   margin: 2em 1em;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina2 section:first-of-type img {
     height: 40em;
@@ -994,6 +1097,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 60em breed is */
 @media (min-width:60em) {
   .pagina2 section:first-of-type div {
     top: 25em;
@@ -1004,18 +1108,19 @@ section:nth-of-type(7) button:active {
   }
 }
 
-/* ********* */
+/* *************************************************************************** */
 /* section 2 */
-/* ********* */
+/* *************************************************************************** */
 .pagina2 section:nth-of-type(2) {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 
-.pagina2 section:nth-of-type(2) div {
+.pagina2 section:nth-of-type(2) ul {
   display: flex;
   gap: .2em;
+  list-style-type: none;
 }
 
 .pagina2 section:nth-of-type(2) article {
@@ -1038,6 +1143,7 @@ section:nth-of-type(7) button:active {
   color: var(--pandora-grey);
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina2 section:nth-of-type(2) {
     margin: 7em 0;
@@ -1052,6 +1158,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 70em breed is */
 @media (min-width:70em) {
   .pagina2 section:nth-of-type(2) {
     margin: 10em 0;
@@ -1066,9 +1173,9 @@ section:nth-of-type(7) button:active {
   }
 }
 
-/* ********* */
+/* *************************************************************************** */
 /* section 3 */
-/* ********* */
+/* *************************************************************************** */
 .pagina2 section:nth-of-type(3) {
   text-align: center;
 }
@@ -1081,6 +1188,7 @@ section:nth-of-type(7) button:active {
   margin-top: 1em;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   .pagina2 section:nth-of-type(3) p {
     margin: 1em 6em 0em;
@@ -1088,6 +1196,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 60em breed is */
 @media (min-width:60em) {
   .pagina2 section:nth-of-type(3) p {
     margin: 1em 13em 0em;
@@ -1095,21 +1204,21 @@ section:nth-of-type(7) button:active {
 }
 
 
-/* ********* */
+/* *************************************************************************** */
 /* section 4 */
-/* ********* */
+/* *************************************************************************** */
 .pagina2 section:nth-of-type(4) {
   display: flex;
   justify-content: center;
 }
 
-.pagina2 section:nth-of-type(4) div {
+.pagina2 section:nth-of-type(4) ul {
   border: 0.5em solid var(--pandora-pink);
   width: 30em;
   padding: 3em 2em 4em;
+  list-style-type: none;
   text-align: center;
   margin: 1em;
-
   display: flex;
   align-items: center;
   overflow-x: scroll;
@@ -1123,42 +1232,32 @@ section:nth-of-type(7) button:active {
 
 .pagina2 section:nth-of-type(4) article p:first-of-type {
   font-size: .5em;
-  padding: 0 27vw;
+  padding: 0 29vw;
 }
 
 .pagina2 section:nth-of-type(4) article p:nth-of-type(2) {
   padding-bottom: 1em;
 }
 
+/* Zodra pagina minimaal 30em breed is */
 @media (min-width: 30em) {
   .pagina2 section:nth-of-type(4) article p:first-of-type {
     padding: 0 22em;
   }
 }
 
-/* @media (min-width:28em) {
-  .pagina2 section:nth-of-type(4) article p:nth-of-type(2) {
-    width: 28em;
-  }
-}
-
-@media (min-width:30em) {
-  .pagina2 section:nth-of-type(4) article p:nth-of-type(2) {
-    width: 30em;
-  }
-} */
 
 
-
-/* ********* */
+/* *************************************************************************** */
 /* section 5 */
-/* ********* */
+/* *************************************************************************** */
 .pagina2 section:nth-of-type(5) img {
   width: 100%;
   transition: .5s;
 }
 
-.pagina2 section:nth-of-type(5) img.imgDraaien {
+/* Wanneer geklikt op button, met JavaScript img laten bewegen */
+.pagina2 section:nth-of-type(5) img.imgBewegen {
   transform: scale(0.9);
   animation-name: imgBounce;
   animation-duration: .5s;
@@ -1173,12 +1272,14 @@ section:nth-of-type(7) button:active {
   font-size: 2em;
 }
 
-
 .pagina2 section:nth-of-type(5) p {
   padding-bottom: 1em;
 }
 
+/* Zodra pagina minimaal 50em breed is */
 @media (min-width:50em) {
+
+  /* Met grid afbeelding en tekst naast elkaar */
   .pagina2 section:nth-of-type(5) {
     display: grid;
     grid-template-columns: 1fr 2fr;
@@ -1201,6 +1302,7 @@ section:nth-of-type(7) button:active {
   }
 }
 
+/* Zodra pagina minimaal 60em breed is */
 @media (min-width:60em) {
   .pagina2 section:nth-of-type(5) h2 {
     font-size: 2em;
@@ -1208,18 +1310,76 @@ section:nth-of-type(7) button:active {
 }
 
 
+/* *************************************************************************** */
+/* section 6 */
+/* *************************************************************************** */
+.pagina2 section:nth-of-type(6) article {
+  margin: 2em;
+}
 
-/* ****** */
+.pagina2 section:nth-of-type(6) article h2 {
+  line-height: 1.5em;
+  margin: 1em 0;
+}
+
+.pagina2 section:nth-of-type(6) article p {
+  margin: 1em 0;
+}
+
+.pagina2 section:nth-of-type(6) img {
+  width: 100%;
+}
+
+/* Zodra pagina minimaal 40em breed is */
+@media (min-width:40em) {
+  .pagina2 section:nth-of-type(6) {
+    /* Met grid de 3 artikelen in 2 colomen */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 2em;
+    grid-auto-flow: dense;
+    margin: 2em 4em;
+  }
+
+  .pagina2 section:nth-of-type(6) article:nth-of-type(2) {
+    /* 3e even breed als 2 artikelen */
+    grid-column-start: 1;
+    grid-column-end: -1;
+  }
+}
+
+/* Zodra pagina minimaal 60em breed is */
+@media (min-width:60em) {
+  .pagina2 section:nth-of-type(6) {
+    /* Met grid de 3 artikelen naast elkaar */
+    display: grid;
+    grid-template-columns: 2fr 3fr 2fr;
+    grid-gap: 2em;
+
+    margin: 2em 6em;
+  }
+
+  /* grid-colum plaats ongedaan maken met inherit */
+  .pagina2 section:nth-of-type(6) article:nth-of-type(2) {
+    grid-column-start: inherit;
+    grid-column-end: inherit;
+  }
+}
+
+
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 /* footer */
-/* ****** */
+/* ****************************************************************************************************** */
+/* ****************************************************************************************************** */
 footer {
   background-color: var(--pandora-footergrey);
   padding: 2em;
 }
 
-/* **************** */
+/* *************************************************************************** */
 /* footer section 1 */
-/* **************** */
+/* *************************************************************************** */
 footer section:first-of-type {
   display: flex;
   justify-content: space-around;
@@ -1229,6 +1389,14 @@ footer section:first-of-type img {
   height: 1.2em;
 }
 
+/* focus-within state voor link met social iconen */
+footer section:first-of-type:focus-within a {
+  background-color: var(--pandora-pink);
+  padding: 1em;
+  border-radius: 3em;
+}
+
+/* hover, focuse en active state voor social icoontjes */
 footer a:hover img {
   transform: scale(1.5);
   transition: 0.2s;
@@ -1246,6 +1414,7 @@ footer a:active img {
   transition: 0.2s;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   footer section:first-of-type {
     margin: 3em 15em;
@@ -1256,9 +1425,9 @@ footer a:active img {
   }
 }
 
-/* **************** */
+/* *************************************************************************** */
 /* footer section 2 */
-/* **************** */
+/* *************************************************************************** */
 footer section:nth-of-type(2) h3 {
   padding: 0em 0em 1em;
 }
@@ -1267,55 +1436,65 @@ footer section:nth-of-type(2) p {
   padding: 0em 0em 1em;
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   footer section:nth-of-type(2) {
-    margin: 3em 5em;
+    margin: 3em 7%;
   }
 }
 
-/* *********** */
+/* *********************************************** */
 /* footer form */
-/* *********** */
-footer form {
-  display: flex;
-  flex-grow: 1;
-}
-
-footer fieldset {
+/* *********************************************** */
+footer section:nth-of-type(2) fieldset {
   border: none;
+  margin: 1em 0;
+  color: var(--basis-black);
 }
 
-footer label {
-  display: none;
-}
-
-footer input,
-select,
-textarea {
+footer section:nth-of-type(2) input {
   padding: 0.5em 0em;
-  font-family: stolzl, sans-serif;
-}
-
-input {
+  font-size: 1.1em;
+  width: 100%;
+  margin: 1em 0em 0em;
   background-color: var(--pandora-footergrey);
 }
 
-input[type="submit"] {
-  background-color: black;
+/* hover, focus en active state voor inputfield formulier */
+footer section:nth-of-type(2) input:hover {
+  background: var(--basis-white);
+  transition: 0.2s;
+}
+
+footer section:nth-of-type(2) input:focus {
+  border: 0.2em dashed var(--basis-black);
+  background: var(--basis-white);
+  transition: 0.2s;
+}
+
+footer section:nth-of-type(2) input:active {
+  background: var(--pandora-pink-dark);
+  color: var(--basis-black);
+}
+
+footer section:nth-of-type(2) input[type="submit"] {
+  background-color: var(--basis-black);
   border: none;
-  color: white;
-  padding: 0em 2em;
+  color: var(--basis-white);
+  padding: 0.5em 2em;
+  margin-top: 0em;
   text-align: center;
   cursor: pointer;
 }
 
-footer input[type="submit"]:hover {
+/* hover, focuse en active state voor verzenden button */
+footer section:nth-of-type(2) input[type="submit"]:hover {
   background-color: var(--pandora-pink);
   color: var(--basis-black);
   transition: .5s;
 }
 
-footer input[type="submit"]:focus {
+footer section:nth-of-type(2) input[type="submit"]:focus {
   background-color: var(--pandora-pink);
   color: var(--basis-black);
   padding: 0em 1.8em;
@@ -1324,7 +1503,7 @@ footer input[type="submit"]:focus {
   transition: .1s;
 }
 
-footer input[type="submit"]:active {
+footer section:nth-of-type(2) input[type="submit"]:active {
   background-color: var(--pandora-pink-dark);
   text-decoration: underline;
   transform: scale(0.8);
@@ -1334,47 +1513,37 @@ footer input[type="submit"]:active {
   transition: none;
 }
 
-footer input:hover {
-  background: var(--basis-white);
-  transition: 0.2s;
+/* placeholder tekst een kleur kunnen geven */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: var(--basis-black);
+  opacity: 1; /* Firefox */
 }
 
-footer input:focus {
-  border: 0.2em dashed var(--basis-black);
-  background: var(--basis-white);
-  transition: 0.2s;
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: var(--basis-black);
 }
 
-footer input:active {
-  background: var(--pandora-pink);
-  color: black;
-  transition: 0.2s;
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: var(--basis-black);
 }
 
+
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
-  footer section:nth-of-type(2) {
-    margin: 3em 7%;
+  footer section:nth-of-type(2) input {
+    width: 100%;
   }
 
-  footer fieldset input {
-    width: 60vw;
-  }
-}
-
-@media (min-width:60em) {
-  footer section:nth-of-type(2) {
-    margin: 3em 5%;
-  }
-
-  footer fieldset input {
-    width: 70vw;
+  footer section:nth-of-type(2) input[type="submit"] {
+    max-width: 20em;
   }
 }
 
 
-/* ********** */
+
+/* *************************************************************************** */
 /* footer nav */
-/* ********** */
+/* *************************************************************************** */
 footer nav li {
   list-style-type: none;
   text-transform: uppercase;
@@ -1382,10 +1551,11 @@ footer nav li {
 }
 
 footer nav a {
-  color: grey;
+  color: var(--pandora-grey-dark);
   text-decoration: none;
 }
 
+/* hover, focuse en active state voor navigatie linkjes in de footer */
 footer nav a:hover {
   color: var(--pandora-pink);
   transition: 0.5s;
@@ -1407,16 +1577,35 @@ footer nav a:active {
   border-bottom: 0.2em solid var(--basis-black);
 }
 
+/* Zodra pagina minimaal 40em breed is */
 @media (min-width:40em) {
   footer nav {
     margin: 3em 7%;
   }
 }
 
-/* **************** */
+/* *************************************************************************** */
 /* footer section 3 */
-/* **************** */
+/* *************************************************************************** */
 footer section:nth-of-type(3) {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+footer section:nth-of-type(3) p {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 0em 0em 2em;
+}
+
+footer section:nth-of-type(3) input {
+  width: 3em;
+  height: 2em;
+  cursor: pointer;
+}
+
+footer section:nth-of-type(3) label {
+  margin: 0.5em 1em;
 }
