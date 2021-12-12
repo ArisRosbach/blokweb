@@ -54,37 +54,51 @@ var hartjeElement4 = document.querySelector(".pagina1 section:nth-of-type(5) ul 
 var hartjeElement5 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(5) img:nth-of-type(2)");
 var hartjeElement6 = document.querySelector(".pagina1 section:nth-of-type(5) ul li:nth-of-type(6) img:nth-of-type(2)");
 
+var shopTasElement = document.querySelector("header nav ul li:nth-of-type(5) img");
+
 
 function plaatjeVeranderd1() {
     hartjeElement1.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement1.classList.add("hartjeVol");
     console.log("ik ben geklikt");
 }
 
 function plaatjeVeranderd2() {
     hartjeElement2.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement2.classList.add("hartjeVol");
     console.log("ik ben geklikt");
 }
 
 function plaatjeVeranderd3() {
     hartjeElement3.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement3.classList.add("hartjeVol");
     console.log("ik ben geklikt");
 }
 
 function plaatjeVeranderd4() {
     hartjeElement4.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement4.classList.add("hartjeVol");
 }
 
 function plaatjeVeranderd5() {
     hartjeElement5.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement5.classList.add("hartjeVol");
 }
 
 function plaatjeVeranderd6() {
     hartjeElement6.src = 'images/PandoraHartVol.png';
+    shopTasElement.src = 'images/PandoraNavShop1.png';
+
     hartjeElement6.classList.add("hartjeVol");
 }
 
@@ -116,18 +130,17 @@ if (hartjeElement6) {
 
 
 
-
 ///////////////////////////////////////////////////////////////////////////////////
 // darkmode //
 ///////////////////////////////////////////////////////////////////////////////////
-var colorModeInput = document.querySelector("footer section:nth-of-type(3) input");
+var inputElementDarkmode = document.querySelector("footer section:nth-of-type(3) input");
 
-colorModeInput.addEventListener('change', erisopmijgeklikt);
-
-function erisopmijgeklikt() {
-  if( colorModeInput.checked ) {
+function erIsGeklikt() {
+  if( inputElementDarkmode.checked ) {
     document.documentElement.classList.add("darkMode");
   } else {
     document.documentElement.classList.remove("darkMode");
   }
 }
+
+inputElementDarkmode.addEventListener('change', erIsGeklikt);

@@ -296,7 +296,7 @@ header ul div span {
   height: 0.2em;
   margin-bottom: 0.5em;
   position: relative;
-  background: var(--basis-black);
+  background: black;
   z-index: 1;
   transform-origin: 0.4em 0em;
 }
@@ -1455,6 +1455,7 @@ footer section:nth-of-type(2) fieldset {
 footer section:nth-of-type(2) input {
   padding: 0.5em 0em;
   font-size: 1.1em;
+  border: 0.15em solid var(--basis-black);
   width: 100%;
   margin: 1em 0em 0em;
   background-color: var(--pandora-footergrey);
@@ -1473,8 +1474,9 @@ footer section:nth-of-type(2) input:focus {
 }
 
 footer section:nth-of-type(2) input:active {
-  background: var(--pandora-pink-dark);
+  background: var(--pandora-pink);
   color: var(--basis-black);
+  border: solid;
 }
 
 footer section:nth-of-type(2) input[type="submit"] {

@@ -324,11 +324,37 @@ Nadat we elkaars werk hadden gezien was ik zelf echt heel erg onder de indruk. I
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
-hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+Ik vond dit vak echt ontzettend leuk! Ik heb vooral geleerd dat je gewoon nog meer kan met CSS dan ik in eerste instantie dacht. Zoals de animaties en een darkmode. Daarnaast is me bij dit vak duidelijk geworden dat states ervoor zorgen dat je website echt tot “leven” komt. Wat super gaaf is.
+Met media queries en grid mijn website responsive maken vond ik denk ik toch echt het leukst. Hierbij kun je echt dingen helemaal anders gaan uitlijnen op verschillende schermformaten.  Dit ook wat ik echt nieuw geleerd heb binnen dit vak. Dus vooral op het begin van het gebruik ging dit wel nog echt erg stroef. Dan moest ik wel echt even doorzetten.
+Wat ik ook nog wel even een dingetje vond was met JavaScript werken. Vaak snap ik wel wat er gebeurd als iets werkt. Maar als iets niet werkt, juist dan begrijp ik niet waarom. Zo weet ik nu dat JavaScript stopt als die een element niet kan vinden. 
+Ook de darkmode was even zoeken. Ik had goed gewerkt met mijn kleuren in variabelen te zetten. Maar in de darkmode bleek dat ik sommige dingen nog een kleur moest geven. Dit ging vooral om de tekstkleur of bijvoorbeeld de achtergrond van mijn header. Dus dat moest ik dan nog gaan aanpassen. Net als alle afbeeldingen, die soms een witte achtergrond kleur hadden en daardoor vreselijk fel afstaken tegen de zwarte achtergrond. Ook dit heb ik zo goed mogelijk opgelost door hier en daar wat plaatjes te vervangen met een transparante achtergrond. 
+Vooral op het eind twijfelde ik of ik wel echt genoeg had gemaakt en daarmee dus laat zien dat ik veel dingen begrijp. Maar eigenlijk ben ik ontzettend trots op mijn website. Soms kijk ik er naar en ben ik even totaal kwijt of ik op de “officiële” Pandora site zit, of op die van mij. Echt een goed teken, al zeg ik het zelf! <br>
+
+<img src="images/ReadMe/CodeHTMLMain4.1.JPG" height="260px" alt="Schermafbeelding van een stukje HTML">
+<img src="images/ReadMe/CodeHTMLMain4.2.JPG" height="260px" alt="Schermafbeelding van een stukje HTML">
+<img src="images/ReadMe/CodeHTMLMain4.3.JPG" height="260px" alt="Schermafbeelding van een stukje HTML">
+<img src="images/ReadMe/CodeHTMLMain4.4.JPG" height="260px" alt="Schermafbeelding van een stukje HTML">
+
+
+<img src="images/ReadMe/CodeCSSMain4.1.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.2.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.3.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.4.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.5.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeJavaMain.JPG" height="260px" alt="Schermafbeelding van een stukje JavaScript">
 
 ### Screenshot(s)
 
-hier screenshot(s) van je eindresultaat
+Dit zijn schreenshots van mijn eindresultaat:
+<img src="images/ReadMe/SchermafbeeldingDef1.1.jpg" height="300px" alt="Schermafbeelding van het eindresultaat 1">
+<img src="images/ReadMe/SchermafbeeldingDef1.2.jpg" height="300px" alt="Schermafbeelding van het eindresultaat 2">
+<img src="images/ReadMe/SchermafbeeldingDef1.3.jpg" height="300px" alt="Schermafbeelding van het eindresultaat 3">
+<img src="images/ReadMe/SchermafbeeldingDef1.4.jpg" height="300px" alt="Schermafbeelding van het eindresultaat 4">
+<img src="images/ReadMe/SchermafbeeldingDef2.1.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 5">
+<img src="images/ReadMe/SchermafbeeldingDef2.2.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 6">
+<img src="images/ReadMe/SchermafbeeldingDef2.3.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 7">
+<img src="images/ReadMe/SchermafbeeldingDef3.1.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 8">
+<img src="images/ReadMe/SchermafbeeldingDef3.2.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 9">
 
 </details>
 
