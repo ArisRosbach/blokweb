@@ -365,9 +365,9 @@ Dit zijn schreenshots van mijn eindresultaat: <br>
 ## Bronnenlijst
 
 <details>
-<summary>continu bijhouden terwijl je werkt</summary>
+<summary>Continu bijhouden terwijl je werkt</summary>
 
-Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
+Dit zijn bronnen die ik gebruikt heb:
 
 1. https://nl.pandora.net/nl/
 2. https://uk.pandora.net/en/
@@ -385,6 +385,8 @@ Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
 14. https://www.w3schools.com/howto/howto_css_placeholder.asp
 15. https://codepen.io/shooft/pen/ExXRLXL?editors=1010s
 16. https://dlo.mijnhva.nl/d2l/le/content/324289/Home
+17. https://support.microsoft.com/en-us/windows/complete-guide-to-narrator-e4397a0d-ef4f-b386-d8ae-c172f109bdb1
+18. https://support.microsoft.com/en-us/windows/start-or-stop-narrator-99c201e7-fa7a-9b0b-f947-dee965c1375b
 
 
 
