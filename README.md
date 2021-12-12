@@ -336,12 +336,12 @@ Vooral op het eind twijfelde ik of ik wel echt genoeg had gemaakt en daarmee dus
 <img src="images/ReadMe/CodeHTMLMain4.4.JPG" width="30%" alt="Schermafbeelding van een stukje HTML">
 
 
-<img src="images/ReadMe/CodeCSSMain4.1.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
-<img src="images/ReadMe/CodeCSSMain4.2.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
-<img src="images/ReadMe/CodeCSSMain4.3.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
-<img src="images/ReadMe/CodeCSSMain4.4.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
-<img src="images/ReadMe/CodeCSSMain4.5.JPG" height="260px" alt="Schermafbeelding van een stukje CSS">
-<img src="images/ReadMe/CodeJavaMain.JPG" height="260px" alt="Schermafbeelding van een stukje JavaScript">
+<img src="images/ReadMe/CodeCSSMain4.1.JPG" width="30%" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.2.JPG" width="30%" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.3.JPG" width="30%" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.4.JPG" width="30%" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeCSSMain4.5.JPG" width="30%" alt="Schermafbeelding van een stukje CSS">
+<img src="images/ReadMe/CodeJavaMain.JPG" width="30%" alt="Schermafbeelding van een stukje JavaScript">
 
 ### Screenshot(s)
 
@@ -353,8 +353,8 @@ Dit zijn schreenshots van mijn eindresultaat: <br>
 <img src="images/ReadMe/SchermafbeeldingDef2.1.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 5">
 <img src="images/ReadMe/SchermafbeeldingDef2.2.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 6">
 <img src="images/ReadMe/SchermafbeeldingDef2.3.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 7">
-<img src="images/ReadMe/SchermafbeeldingDef3.1.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 8">
-<img src="images/ReadMe/SchermafbeeldingDef3.2.JPG" height="300px" alt="Schermafbeelding van het eindresultaat 9">
+<img src="images/ReadMe/SchermafbeeldingDef3.1.JPG" height="260px" alt="Schermafbeelding van het eindresultaat 8">
+<img src="images/ReadMe/SchermafbeeldingDef3.2.JPG" height="260px" alt="Schermafbeelding van het eindresultaat 9">
 
 </details>
 
