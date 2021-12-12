@@ -320,7 +320,7 @@ Nadat we elkaars werk hadden gezien was ik zelf echt heel erg onder de indruk. I
 
 ## Eindgesprek (week 5)
 
-<details>
+<details open>
 <summary>uitwerken voor eindgesprek</summary>
 
 ### Stand van zaken
@@ -364,7 +364,7 @@ Dit zijn schreenshots van mijn eindresultaat:
 
 ## Bronnenlijst
 
-<details open>
+<details>
 <summary>continu bijhouden terwijl je werkt</summary>
 
 Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg).
